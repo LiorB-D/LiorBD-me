@@ -23,7 +23,7 @@ Technologies I'm comfortable with include:
 `;
 export default function Page() {
   return (
-    <div>
+    <div className="mt-[-16px]">
       <MarkdownBlock content={content} />
     </div>
   );
