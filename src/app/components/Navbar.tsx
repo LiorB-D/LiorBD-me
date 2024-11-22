@@ -4,6 +4,7 @@ import { Menu } from "lucide-react";
 import React from "react";
 const navOptions = [
   { label: "Home", href: "/" },
+  { label: "Blog", href: "/blog" },
   { label: "Freelancing", href: "/freelancing" },
 ];
 

@@ -1,8 +1,6 @@
 import MarkdownBlock from "../components/Markdown";
 
 const content = `
-# Freelancing
-
 I often take on freelance software and developer marketing projects. 
 
 I've built the MVPs for the following companies:
@@ -23,7 +21,8 @@ Technologies I'm comfortable with include:
 `;
 export default function Page() {
   return (
-    <div className="mt-[-16px]">
+    <div>
+      <h1 className="mb-10 text-4xl">🛠️ Freelancing</h1>
       <MarkdownBlock content={content} />
     </div>
   );

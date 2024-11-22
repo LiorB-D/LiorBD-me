@@ -34,7 +34,7 @@ export default function RootLayout({
       >
         <div className="flex items-start justify-center pt-[150px]">
           <Navbar />
-          <div className="px-10 sm:px-20 max-w-[768px] pb-[600px]">
+          <div className="px-10 sm:px-20 max-w-[768px] pb-[400px]">
             {children}
           </div>
         </div>
