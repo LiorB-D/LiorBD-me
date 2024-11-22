@@ -1,5 +1,6 @@
 import getBlogContent from "@/cms/cms";
 import MarkdownBlock from "../../components/Markdown";
+import NotFound from "@/app/not-found";
 
 export default async function Page({
   params,
@@ -10,7 +11,7 @@ export default async function Page({
   const blogPost = getBlogContent(slug);
 
   if (!blogPost) {
-    return <div>404 Not Found</div>;
+    return <NotFound />;
   }
   return (
     <div>
