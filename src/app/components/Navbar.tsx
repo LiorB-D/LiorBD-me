@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { Menu } from "lucide-react";
 import React from "react";
+import Link from "next/link";
 const navOptions = [
   { label: "Home", href: "/" },
   { label: "Blog", href: "/blog" },
@@ -28,13 +29,13 @@ export default function Navbar() {
           </div>
           <div className="hidden md:flex gap-x-8 items-center">
             {navOptions.map((option) => (
-              <a
+              <Link
                 href={option.href}
                 className="cursor-pointer"
                 key={option.label}
               >
                 {option.label}
-              </a>
+              </Link>
             ))}
           </div>
           <button className="flex md:hidden items-center">
@@ -51,13 +52,13 @@ export default function Navbar() {
       {isMenuOpen && (
         <div className="flex flex-col items-end mt-2 gap-y-2 md:hidden">
           {navOptions.map((option) => (
-            <a
+            <Link
               href={option.href}
               className="glossy-bg rounded-full cursor-pointer text-md px-6 py-1 hover:bg-slate-200 text-right hover:border-slate-500"
               key={option.label}
             >
               {option.label}
-            </a>
+            </Link>
           ))}
         </div>
       )}
