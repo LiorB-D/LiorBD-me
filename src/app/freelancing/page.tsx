@@ -4,7 +4,7 @@ const content = `
 I often take on freelance software and developer marketing projects. 
 
 I've built the MVPs for the following companies:
-- [CompliantGuard](https://compliantguard.com/dashboard) - a compliance management platform for property owners. Built with Express, React, Postgres
+- [CompliantGuard](https://compliantguard.com/dashboard) - A compliance management platform for property owners. Built with Express, React, Postgres
 - [PeerPressur](https://www.peerpressur.com/) - Built with Swift, SwiftUI, Firebase
 - [Z-Score Sports](https://www.linkedin.com/company/z-score-sports/) - Built with React
 
