@@ -1,4 +1,5 @@
 import { Book, getAllBooks } from "@/cms/books";
+import Image from "next/image";
 
 export default function Page() {
   const allBooks = getAllBooks().sort((a, b) =>
@@ -14,9 +15,49 @@ export default function Page() {
     }
     return acc;
   }, [] as { slug: string; book: Book }[][]);
+
+  const currentlyReading: Array<{
+    title: string;
+    author: string;
+    img_url: string;
+  }> = [
+    {
+      title: "Operating Systems: Three Easy Pieces",
+      author: "Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau",
+      img_url:
+        "https://m.media-amazon.com/images/I/41lmWk6muIL._SY445_SX342_.jpg",
+    },
+    {
+      title: "Blood, Sweat, and Pixels",
+      author: "Jason Schreier",
+      img_url:
+        "https://m.media-amazon.com/images/I/51Sz0Lfa6TL._SY445_SX342_.jpg",
+    },
+  ];
+
   return (
     <div>
       <h1 className="text-4xl">📖 Bookshelf</h1>
+      <h2 className="mt-6 text-lg">I'm currently reading:</h2>
+      <div className="mt-4 flex flex-col gap-y-4">
+        {currentlyReading.map((book) => (
+          <div
+            key={book.title}
+            className="glossy-bg p-4 flex rounded-xl gap-x-2"
+          >
+            <Image
+              src={book.img_url}
+              width={100}
+              height={150}
+              alt={book.title}
+            />
+            <div>
+              <h3 className="text-lg font-bold">{book.title}</h3>
+              <p className="mt-2 italic">{book.author}</p>
+            </div>
+          </div>
+        ))}
+      </div>
       <div className="mt-10 flex gap-x-12 flex-wrap gap-y-24 justify-center">
         {shelves.map((shelf) => {
           return (
