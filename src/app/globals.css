@@ -10,4 +10,103 @@
     -webkit-backdrop-filter: blur(12.5px);
     border: 1px solid rgba(255, 255, 255, 0.53);
   }
+
+  .book {
+    position: relative;
+    transition: all 750ms ease;
+    width: 60px;
+    height: 250px;
+    display: flex;
+    cursor: pointer;
+  }
+
+  .book::before {
+    transition: all 750ms ease;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none; /* Ensures the overlay doesn't block interaction with children */
+    z-index: 1; /* Places the overlay in front of children */
+    opacity: 0;
+  }
+  .book:hover::before {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.2), transparent 50%);
+    opacity: 1;
+  }
+
+  .book > * {
+    position: relative;
+    z-index: 0;
+  }
+
+  .book:hover {
+    transform: rotateX(30deg);
+    height: 250px;
+    .booktop {
+      height: 40px;
+    }
+  }
+  .booktop {
+    transition: all 750ms ease;
+    height: 0px;
+    width: 60px;
+    border: solid #037303;
+    border-width: 1px 2px 1px 2px;
+    background: rgb(231, 231, 231);
+  }
+  .bookspine {
+    border: solid #037303;
+    border-width: 2px 1px 2px 2px;
+    background-color: #99ff99;
+    width: 60px;
+    height: 250px;
+  }
+
+  .bookshelf {
+    margin-top: -10px;
+    max-width: 1000px;
+    width: 110%;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    z-index: -1;
+    position: relative;
+    height: 0px;
+    box-sizing: border-box;
+    border-bottom: 16px solid #f3f3f3;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    pointer-events: all;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 16px;
+      background: linear-gradient(90deg, #fafafa 0%, #ffffff 100%);
+      height: 26px;
+      width: calc(100% + 40px);
+      box-shadow: 0px -1px 6px rgba(0, 0, 0, 0.05),
+        0px 4px 16px rgba(0, 0, 0, 0.25);
+      z-index: 2;
+    }
+
+    &::after {
+      content: "";
+      height: 80px;
+      width: calc(100% + 40px);
+      position: absolute;
+      top: 42px;
+      display: block;
+      background: linear-gradient(
+        180deg,
+        #f3f3f3 0%,
+        rgba(255, 255, 255, 0) 100%
+      );
+      clip-path: polygon(0% 0%, 100% 0%, 97% 100%, 3% 100%);
+      z-index: -1;
+    }
+  }
 }

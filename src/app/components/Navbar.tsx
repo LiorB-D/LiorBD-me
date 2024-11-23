@@ -12,7 +12,7 @@ const navOptions = [
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   return (
-    <div className="fixed top-10 w-[90%] md:w-[768px]">
+    <div className="fixed top-10 w-[90%] md:w-[768px] z-20">
       <div className="glossy-bg py-2 pl-4 pr-8 rounded-full ">
         <div className="flex justify-between text-lg">
           <div className="flex gap-x-2 items-center">
