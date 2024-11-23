@@ -38,7 +38,7 @@ export default function Page() {
   return (
     <div>
       <h1 className="text-4xl">📖 Bookshelf</h1>
-      <h2 className="mt-6 text-lg">I'm currently reading:</h2>
+      <h2 className="mt-6 text-lg">I&apo;m currently reading:</h2>
       <div className="mt-4 flex flex-col gap-y-4">
         {currentlyReading.map((book) => (
           <div
