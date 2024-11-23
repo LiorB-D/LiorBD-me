@@ -7,6 +7,7 @@ const navOptions = [
   { label: "Home", href: "/" },
   { label: "Blog", href: "/blog" },
   { label: "Freelancing", href: "/freelancing" },
+  { label: "Bookshelf", href: "/bookshelf" },
 ];
 
 export default function Navbar() {

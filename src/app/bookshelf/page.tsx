@@ -1,7 +1,9 @@
 import { Book, getAllBooks } from "@/cms/books";
 
 export default function Page() {
-  const allBooks = getAllBooks();
+  const allBooks = getAllBooks().sort((a, b) =>
+    a.book.dateRead > b.book.dateRead ? -1 : 1
+  );
   // Group it into shelves of max 4 books
   const shelves = allBooks.reduce((acc, { slug, book }) => {
     const lastShelf = acc[acc.length - 1];
@@ -14,7 +16,7 @@ export default function Page() {
   }, [] as { slug: string; book: Book }[][]);
   return (
     <div>
-      <h1 className="text-4xl">Bookshelf</h1>
+      <h1 className="text-4xl">📖 Bookshelf</h1>
       <div className="mt-10 flex gap-x-12 flex-wrap gap-y-24 justify-center">
         {shelves.map((shelf) => {
           return (
@@ -55,9 +57,9 @@ function BookComponent({ book }: { book: Book }) {
           borderColor: "rgba(100, 100, 100, 0.1)",
         }}
       >
-        <div className="h-32">
+        <div className="h-36">
           <p
-            className="h-full w-full text-left text-lg font-bold"
+            className="h-full w-full text-left text-lg font-bold line-clamp-2"
             style={{ writingMode: "vertical-rl" }}
           >
             {book.title}
