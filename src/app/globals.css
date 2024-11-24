@@ -15,8 +15,12 @@
     position: relative;
     transition: all 750ms ease;
     width: 60px;
-    height: 250px;
     display: flex;
+    margin-bottom: 0;
+
+    @media (min-width: 600px) {
+      height: 250px;
+    }
   }
 
   .book::before {
@@ -43,7 +47,12 @@
 
   .book:hover {
     transform: rotateX(30deg);
-    height: 250px;
+
+    margin-top: 0px;
+    @media (max-width: 600px) {
+      margin-top: -40px;
+    }
+
     .booktop {
       height: 40px;
     }

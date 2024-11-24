@@ -39,6 +39,7 @@ export default function Page() {
     <div>
       <h1 className="text-4xl">📖 Bookshelf</h1>
       <h2 className="mt-6 text-lg">I&apos;m currently reading:</h2>
+
       <div className="mt-4 flex flex-col gap-y-4">
         {currentlyReading.map((book) => (
           <div
@@ -58,6 +59,7 @@ export default function Page() {
           </div>
         ))}
       </div>
+
       <div className="mt-10 flex gap-x-12 flex-wrap gap-y-24 justify-center">
         {shelves.map((shelf) => {
           return (
@@ -98,9 +100,10 @@ function BookComponent({ book }: { book: Book }) {
           borderColor: "rgba(100, 100, 100, 0.1)",
         }}
       >
-        <div className="h-36">
+        <div className="h-36 ">
+          {" "}
           <p
-            className="h-full w-full text-left text-lg font-bold line-clamp-2"
+            className="ml-auto h-full w-[90%] md:w-auto text-left font-bold md:line-clamp-2 overflow-clip"
             style={{ writingMode: "vertical-rl" }}
           >
             {book.title}
