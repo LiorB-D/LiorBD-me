@@ -36,7 +36,7 @@
     opacity: 0;
   }
   .book:hover::before {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.2), transparent 50%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent 100%);
     opacity: 1;
   }
 

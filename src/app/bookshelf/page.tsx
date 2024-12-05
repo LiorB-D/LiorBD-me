@@ -60,6 +60,10 @@ export default function Page() {
         ))}
       </div>
 
+      <h2 className="mt-12 text-lg">
+        Bookshelf since{" "}
+        {allBooks[allBooks.length - 1].book.dateRead.toDateString()}:
+      </h2>
       <div className="mt-10 flex gap-x-12 flex-wrap gap-y-24 justify-center">
         {shelves.map((shelf) => {
           return (
@@ -101,7 +105,6 @@ function BookComponent({ book }: { book: Book }) {
         }}
       >
         <div className="h-36 ">
-          {" "}
           <p
             className="ml-auto h-full w-[90%] md:w-auto text-left font-bold md:line-clamp-2 overflow-clip"
             style={{ writingMode: "vertical-rl" }}
