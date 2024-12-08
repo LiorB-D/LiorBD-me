@@ -1,7 +1,7 @@
 import MarkdownBlock from "../components/Markdown";
 
 const content = `
-I often take on freelance software and developer marketing projects. 
+I occasionally take on freelance software and developer marketing projects. **I am not currently available for freelance projects.**
 
 I've built the MVPs for the following companies:
 - [CompliantGuard](https://compliantguard.com/dashboard) - A compliance management platform for property owners. Built with Express, React, Postgres

@@ -2,9 +2,9 @@ import { BLOGS } from "@/cms/cms";
 import Link from "next/link";
 
 export default function Page() {
-  const allBlogs = Object.entries(BLOGS).sort((a, b) =>
-    a[1].date > b[1].date ? -1 : 1
-  );
+  const allBlogs = Object.entries(BLOGS)
+    .sort((a, b) => (a[1].date > b[1].date ? -1 : 1))
+    .filter((b) => !b[1].hidden);
 
   return (
     <div>

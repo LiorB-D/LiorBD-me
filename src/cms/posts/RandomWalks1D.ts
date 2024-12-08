@@ -64,7 +64,7 @@ $$
 
 ## The Binomial Distribution
 
-We don’t actually need to define $f(n)$ for this proof, but you may have already realized that $f(2n)$ is the probability of flipping exactly $n$ heads and $n$ tails. This is because we only get back to 0 if we go right and left the same amount fo time.
+We don’t actually need to define $f(n)$ for this proof, but you may have already realized that $f(2n)$ is the probability of flipping exactly $n$ heads and $n$ tails. This is because we only get back to 0 if we go right and left the same amount of times.
 
 ## Proving the product converges to 0
 
@@ -74,7 +74,7 @@ $$
 \\prod_{n=1}^\\infty (1-f(n)) = e^{\\ln(\\prod_{n=1}^\\infty 1-f(n))} \\\\ = e^{\\sum_{n=1}^\\infty(\\ln(1-f(n)))}
 $$
 
-We can show that $\\sum_{n=1}^\\infty(\\ln(1-f(n)))$ diverges down to infinity, and therefore that 
+We will show that $\\sum_{n=1}^\\infty(\\ln(1-f(n)))$ diverges down to infinity, and therefore that 
 
 $$
 e^{\\sum_{n=1}^\\infty(\\ln(1-f(n)))} = 0
@@ -83,7 +83,7 @@ $$
 Consider that:
 
 $$
-f(n) = \\frac{\\text{Number of paths where you go right and left equally}}{n}
+f(n) = \\frac{\\text{Number of paths where you go right and left equally}}{2^n}
 $$
 
 We know that there are always at least 2 ways to achieve this, you can
@@ -91,7 +91,9 @@ We know that there are always at least 2 ways to achieve this, you can
 - Go left $\\frac{n}{2}$ times and then go right $\\frac{n}{2}$
 - Go right $\\frac{n}{2}$ times and then go left $\\frac{n}{2}$
 
-Thus we know that $f(n) > \\frac{1}{n}$ for even $n$.
+Thus we know that $f(n) > \\frac{1}{2^n}$ for even $n$.
+
+GAP IN PROOF
 
 From there we can conclude the following inequalities for even $n$:
 

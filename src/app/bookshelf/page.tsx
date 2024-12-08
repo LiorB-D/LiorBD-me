@@ -28,10 +28,10 @@ export default function Page() {
         "https://m.media-amazon.com/images/I/41lmWk6muIL._SY445_SX342_.jpg",
     },
     {
-      title: "Blood, Sweat, and Pixels",
-      author: "Jason Schreier",
+      title: "Foundation and Empire",
+      author: "Isaac Asimov",
       img_url:
-        "https://m.media-amazon.com/images/I/51Sz0Lfa6TL._SY445_SX342_.jpg",
+        "https://m.media-amazon.com/images/I/51gHRvATzGL._SY445_SX342_.jpg",
     },
   ];
 

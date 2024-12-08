@@ -17,6 +17,7 @@ export type BlogContent = {
   title: string;
   content: string;
   date: Date;
+  hidden?: boolean;
 };
 
 export const BLOGS: Record<string, BlogContent> = {
@@ -69,6 +70,7 @@ export const BLOGS: Record<string, BlogContent> = {
     title: "Random Walks in 1D Return to Origin",
     content: RANDOM_WALKS_1D,
     date: new Date("2024-10-04"),
+    hidden: true,
   },
   "sales-and-customer-discovery": {
     title: "The Line Between Sales and Customer Discovery Only Exists At Scale",

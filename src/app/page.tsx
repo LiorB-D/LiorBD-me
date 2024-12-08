@@ -28,6 +28,18 @@ For example, it might be the case that heat only flows within the base of the pa
 
 A connection matrix is a way to describe how the pieces of the Morse decomposition relate to each other.
 `;
+
+const GAMES_EXPLANATION = `
+## Game Development
+
+I also occasionally make small games.
+I recently released a small puzzle game called [Coprime Sudoku](https://apps.apple.com/cn/app/coprime-sudoku/id6738853269?l=en-GB) on the iOS app store. 
+It's built with React Native.
+
+![alt](https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/24/89/60/2489606a-21c5-f8d8-32ea-be3d0df7f447/Simulator_Screenshot_-_iPhone_16_-_2024-12-05_at_15.47.32_1.png/314x0w.webp)
+
+I also release small mini-games and demos [here](https://freewebgaming.com).
+`;
 export default function Home() {
   return (
     <div>
@@ -43,11 +55,17 @@ export default function Home() {
         </a>
         , study computational topology, and make small games.
       </h3>
+      <h3 className="text-lg">
+        I previously studied Math and Economics at the University of Virginia.
+      </h3>
       <section className="mt-10">
         <MarkdownBlock content={ENKI_EXPLANATION} />
       </section>
       <section>
         <MarkdownBlock content={TOPOLOGY_EXPLANATION} />
+      </section>
+      <section>
+        <MarkdownBlock content={GAMES_EXPLANATION} />
       </section>
     </div>
   );
