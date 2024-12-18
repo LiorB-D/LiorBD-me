@@ -97,6 +97,20 @@ const books: Record<string, Book> = {
     accentColor: "#d0f000",
     dateRead: new Date("2024-09-01"),
   },
+  "the-pragmatic-programmer": {
+    title: "The Pragmatic Programmer",
+    author: "Andrew Hunt and David Thomas",
+    color: "#222222",
+    accentColor: "#f5f5f5",
+    dateRead: new Date("2024-01-10"),
+  },
+  "Operating Systems: Three Easy Pieces": {
+    title: "Operating Systems: Three Easy Pieces",
+    author: "Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau",
+    color: "#000000",
+    accentColor: "#ffffff",
+    dateRead: new Date("2024-12-17"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {

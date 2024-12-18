@@ -22,10 +22,10 @@ export default function Page() {
     img_url: string;
   }> = [
     {
-      title: "Operating Systems: Three Easy Pieces",
-      author: "Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau",
+      title: "The Algorithm Design Manual",
+      author: "Steven S. Skiena",
       img_url:
-        "https://m.media-amazon.com/images/I/41lmWk6muIL._SY445_SX342_.jpg",
+        "https://m.media-amazon.com/images/I/413mXCYGPuL._SY445_SX342_.jpg",
     },
     {
       title: "Foundation and Empire",
