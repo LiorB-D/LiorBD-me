@@ -42,7 +42,10 @@ export default function MarkdownBlock({
           <div className="h-[0.8px] my-6 bg-slate-300 " {...props} />
         ),
         code: ({ ...props }) => (
-          <span className="bg-slate-800 text-white rounded-md p-1" {...props} />
+          <span
+            className="bg-slate-800 text-white rounded-md px-1 py-0.5"
+            {...props}
+          />
         ),
         pre: ({ ...props }) => {
           return (

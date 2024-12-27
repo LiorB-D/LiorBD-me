@@ -2,6 +2,7 @@ import BUILDING_VR_WEBSITES from "./posts/BuildingVRSites";
 import CAPSET_PROBLEM from "./posts/CapSetProblem";
 import DRIVING_NEUROEVOLUTION from "./posts/DrivingNeuroevolution";
 import GAME_THEORETIC_SALES from "./posts/GameTheoreticSales";
+import GENERATING_TIKTOK_SLOP from "./posts/GeneratingTiktokSlop";
 import HAMMERS_SEARCHING_NAILS from "./posts/HammersSearchingNails";
 import LET_YOURSELF_BE_EMBRACED from "./posts/LetYourselfBeEmbraced";
 import QUARTERLY_COUNTER_ARGUMENTS from "./posts/QuarterlyCounterArguments";
@@ -91,6 +92,11 @@ export const BLOGS: Record<string, BlogContent> = {
     title: "Thoughts on Current Events",
     content: THOUGHTS_ON_OCT_SEVEN,
     date: new Date("2023-10-10"),
+  },
+  "generating-tiktok-slop": {
+    title: "Generating TikTok Slop with ffmpeg, AI, and Bash",
+    content: GENERATING_TIKTOK_SLOP,
+    date: new Date("2024-12-27"),
   },
 };
 export default function getBlogContent(slug: string): BlogContent {
