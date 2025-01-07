@@ -37,8 +37,6 @@ I recently released a small puzzle game called [Coprime Sudoku](https://apps.app
 It's built with React Native.
 
 ![alt](https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/24/89/60/2489606a-21c5-f8d8-32ea-be3d0df7f447/Simulator_Screenshot_-_iPhone_16_-_2024-12-05_at_15.47.32_1.png/314x0w.webp)
-
-I also release small mini-games and demos [here](https://freewebgaming.com).
 `;
 export default function Home() {
   return (
