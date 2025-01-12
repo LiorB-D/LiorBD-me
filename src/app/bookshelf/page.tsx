@@ -28,10 +28,10 @@ export default function Page() {
         "https://m.media-amazon.com/images/I/413mXCYGPuL._SY445_SX342_.jpg",
     },
     {
-      title: "Foundation and Empire",
+      title: "Second Foundation",
       author: "Isaac Asimov",
       img_url:
-        "https://m.media-amazon.com/images/I/51gHRvATzGL._SY445_SX342_.jpg",
+        "https://m.media-amazon.com/images/I/91iM0Da+4ML._AC_UY436_FMwebp_QL65_.jpg",
     },
   ];
 
@@ -104,7 +104,7 @@ function BookComponent({ book }: { book: Book }) {
           borderColor: "rgba(100, 100, 100, 0.1)",
         }}
       >
-        <div className="h-36 ">
+        <div className="h-44">
           <p
             className="ml-auto h-full w-[90%] md:w-auto text-left font-bold md:line-clamp-2 overflow-clip"
             style={{ writingMode: "vertical-rl" }}
@@ -114,7 +114,7 @@ function BookComponent({ book }: { book: Book }) {
         </div>
 
         <div
-          className="h-4 w-full"
+          className="h-6 w-full"
           style={{ backgroundColor: book.accentColor }}
         ></div>
       </div>

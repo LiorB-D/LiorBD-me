@@ -111,6 +111,13 @@ const books: Record<string, Book> = {
     accentColor: "#ffffff",
     dateRead: new Date("2024-12-17"),
   },
+  "foundation-and-empire": {
+    title: "Foundation and Empire",
+    author: "Isaac Asimov",
+    color: "#4d1c00",
+    accentColor: "#f5f5f5",
+    dateRead: new Date("2025-01-02"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {

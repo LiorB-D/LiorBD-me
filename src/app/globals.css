@@ -19,7 +19,7 @@
     margin-bottom: 0;
 
     @media (min-width: 600px) {
-      height: 250px;
+      height: 300px;
     }
   }
 
@@ -54,7 +54,7 @@
     }
 
     .booktop {
-      height: 40px;
+      height: 60px;
     }
   }
   .booktop {
@@ -70,7 +70,7 @@
     border-width: 2px 1px 2px 2px;
     background-color: #99ff99;
     width: 60px;
-    height: 250px;
+    height: 300px;
   }
 
   .bookshelf {
