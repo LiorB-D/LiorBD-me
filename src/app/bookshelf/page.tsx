@@ -28,10 +28,10 @@ export default function Page() {
         "https://m.media-amazon.com/images/I/413mXCYGPuL._SY445_SX342_.jpg",
     },
     {
-      title: "Second Foundation",
-      author: "Isaac Asimov",
+      title: "The Moon is a Harsh Mistress",
+      author: "Robert A. Heinlein",
       img_url:
-        "https://m.media-amazon.com/images/I/91iM0Da+4ML._AC_UY436_FMwebp_QL65_.jpg",
+        "https://m.media-amazon.com/images/I/710OpEvH5oL._AC_UY436_FMwebp_QL65_.jpg",
     },
   ];
 
