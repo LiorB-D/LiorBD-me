@@ -19,9 +19,7 @@ export default function Navbar() {
         <div className="flex justify-between text-lg">
           <div className="flex gap-x-2 items-center">
             <Image
-              src={
-                "https://media.licdn.com/dms/image/v2/D4E03AQHEQRHRGA2H5w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1706649249103?e=1737590400&v=beta&t=u1M5UESbRTRqrmjqnqfgZ0tJ8usgEVnGOUIUfc_cj80"
-              }
+              src={"https://i.imgur.com/dXe1ezt.jpeg"}
               alt="Lior Ben-David"
               height={30}
               width={30}
