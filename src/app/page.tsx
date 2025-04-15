@@ -1,11 +1,9 @@
 import MarkdownBlock from "./components/Markdown";
 
-const ENKI_EXPLANATION = `
-## Enki
+const HOTGLUE_EXPLANATION = `
+## Hotglue
 
-Enki is an AI-powered, learning platform for coding and data science skills.
-
-I work on the web app team, building with Typescript, React, NodeJS, Postgres, and GPT.
+Hotglue is an Integration Platform as a Service (iPaaS), built on the Open Source Singer Spec.
 `;
 
 const TOPOLOGY_EXPLANATION = `
@@ -43,13 +41,13 @@ export default function Home() {
     <div>
       <h1 className="text-4xl">👋 Hi, I&apos;m Lior</h1>
       <h3 className="mt-10 text-lg">
-        I&apos;m a software engineer based in Washington, DC. <br /> I write
-        software at{" "}
+        I&apos;m a software engineer based in Washington, DC. <br />I build
+        developer tooling at{" "}
         <a
           className="cursor-pointer underline text-blue-800"
-          href="https://enki.com"
+          href="https://hotglue.com"
         >
-          Enki
+          Hotglue
         </a>
         , study computational topology, and make small games.
       </h3>
@@ -57,7 +55,7 @@ export default function Home() {
         I previously studied Math and Economics at the University of Virginia.
       </h3>
       <section className="mt-10">
-        <MarkdownBlock content={ENKI_EXPLANATION} />
+        <MarkdownBlock content={HOTGLUE_EXPLANATION} />
       </section>
       <section>
         <MarkdownBlock content={TOPOLOGY_EXPLANATION} />

@@ -125,6 +125,27 @@ const books: Record<string, Book> = {
     accentColor: "#f5f5f5",
     dateRead: new Date("2025-01-25"),
   },
+  "the-algorithm-design-manual": {
+    title: "The Algorithm Design Manual",
+    author: "Steven S. Skiena",
+    color: "#FF0000",
+    accentColor: "#000088",
+    dateRead: new Date("2025-01-30"),
+  },
+  "the-moon-is-a-harsh-mistress": {
+    title: "The Moon Is a Harsh Mistress",
+    author: "Robert A. Heinlein",
+    color: "#FFFF00",
+    accentColor: "#000000",
+    dateRead: new Date("2025-04-14"),
+  },
+  dune: {
+    title: "Dune",
+    author: "Frank Herbert",
+    color: "#FFA500",
+    accentColor: "#000000",
+    dateRead: new Date("2025-04-14"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {

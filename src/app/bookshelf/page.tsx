@@ -22,16 +22,16 @@ export default function Page() {
     img_url: string;
   }> = [
     {
-      title: "The Algorithm Design Manual",
-      author: "Steven S. Skiena",
+      title: "SPQR",
+      author: "Mary Beard",
       img_url:
-        "https://m.media-amazon.com/images/I/413mXCYGPuL._SY445_SX342_.jpg",
+        "https://m.media-amazon.com/images/I/71yxjgKVt6L._AC_UY436_FMwebp_QL65_.jpg",
     },
     {
-      title: "The Moon is a Harsh Mistress",
-      author: "Robert A. Heinlein",
+      title: "Computer Networking: A Top-Down Approach",
+      author: "Jim Kurose and Keith Ross",
       img_url:
-        "https://m.media-amazon.com/images/I/710OpEvH5oL._AC_UY436_FMwebp_QL65_.jpg",
+        "https://m.media-amazon.com/images/I/51vT3X2tdtL._AC_UY436_FMwebp_QL65_.jpg",
     },
   ];
 
