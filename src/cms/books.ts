@@ -137,14 +137,28 @@ const books: Record<string, Book> = {
     author: "Robert A. Heinlein",
     color: "#FFFF00",
     accentColor: "#000000",
-    dateRead: new Date("2025-04-14"),
+    dateRead: new Date("2025-02-25"),
   },
   dune: {
     title: "Dune",
     author: "Frank Herbert",
     color: "#FFA500",
     accentColor: "#000000",
-    dateRead: new Date("2025-04-14"),
+    dateRead: new Date("2025-04-01"),
+  },
+  spqr: {
+    title: "SPQR",
+    author: "Mary Beard",
+    color: "#FFDD99",
+    accentColor: "#000000",
+    dateRead: new Date("2025-04-25"),
+  },
+  "stubborn-attachments": {
+    title: "Stubborn Attachments",
+    author: "Tyler Cowen",
+    color: "#FF4444",
+    accentColor: "#000000",
+    dateRead: new Date("2025-05-04"),
   },
 };
 

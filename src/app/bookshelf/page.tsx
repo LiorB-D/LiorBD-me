@@ -22,16 +22,27 @@ export default function Page() {
     img_url: string;
   }> = [
     {
-      title: "SPQR",
-      author: "Mary Beard",
+      title: "The Time Machine",
+      author: "H.G. Wells",
       img_url:
-        "https://m.media-amazon.com/images/I/71yxjgKVt6L._AC_UY436_FMwebp_QL65_.jpg",
+        "https://m.media-amazon.com/images/I/317fEmAT4QL._SY445_SX342_PQ67_.jpg",
     },
     {
       title: "Computer Networking: A Top-Down Approach",
       author: "Jim Kurose and Keith Ross",
       img_url:
         "https://m.media-amazon.com/images/I/51vT3X2tdtL._AC_UY436_FMwebp_QL65_.jpg",
+    },
+    {
+      title: "Man is not alone: A Philosophy of Religion",
+      author: "Abraham Joshua Heschel",
+      img_url: "https://m.media-amazon.com/images/I/815YPHSSmoL._SY522_.jpg",
+    },
+    {
+      title: "Category Theory in Context",
+      author: "Emily Riehl",
+      img_url:
+        "https://m.media-amazon.com/images/I/41yl2Jj88kL._SY445_SX342_PQ67_.jpg",
     },
   ];
 
@@ -40,11 +51,11 @@ export default function Page() {
       <h1 className="text-4xl">📖 Bookshelf</h1>
       <h2 className="mt-6 text-lg">I&apos;m currently reading:</h2>
 
-      <div className="mt-4 flex flex-col gap-y-4">
+      <div className="mt-4 flex flex-row flex-wrap gap-y-4">
         {currentlyReading.map((book) => (
           <div
             key={book.title}
-            className="glossy-bg p-4 flex rounded-xl gap-x-2"
+            className="glossy-bg p-4 flex rounded-xl gap-x-8"
           >
             <Image
               src={book.img_url}
