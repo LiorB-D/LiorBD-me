@@ -22,12 +22,6 @@ export default function Page() {
     img_url: string;
   }> = [
     {
-      title: "The Time Machine",
-      author: "H.G. Wells",
-      img_url:
-        "https://m.media-amazon.com/images/I/317fEmAT4QL._SY445_SX342_PQ67_.jpg",
-    },
-    {
       title: "Computer Networking: A Top-Down Approach",
       author: "Jim Kurose and Keith Ross",
       img_url:
