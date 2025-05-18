@@ -32,12 +32,6 @@ export default function Page() {
       author: "Abraham Joshua Heschel",
       img_url: "https://m.media-amazon.com/images/I/815YPHSSmoL._SY522_.jpg",
     },
-    {
-      title: "Category Theory in Context",
-      author: "Emily Riehl",
-      img_url:
-        "https://m.media-amazon.com/images/I/41yl2Jj88kL._SY445_SX342_PQ67_.jpg",
-    },
   ];
 
   return (
