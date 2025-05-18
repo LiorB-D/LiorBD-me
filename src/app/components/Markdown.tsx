@@ -60,7 +60,16 @@ export default function MarkdownBlock({
           <aside className="bg-slate-200 p-4 rounded-md my-6" {...props} />
         ),
         iframe: ({ ...props }) => <iframe className="my-6" {...props}></iframe>,
-        img: ({ ...props }) => <img className="mx-auto my-6" {...props} />,
+        img: ({ ...props }) =>
+          props.src?.includes(".mp4") ? (
+            <video
+              className="mx-auto my-6 max-h-[420px]"
+              {...(props as React.VideoHTMLAttributes<HTMLVideoElement>)}
+              controls
+            />
+          ) : (
+            <img className="mx-auto my-6" {...props} />
+          ),
       }}
     >
       {content}
