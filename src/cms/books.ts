@@ -27,7 +27,7 @@ const books: Record<string, Book> = {
     color: "#255ea8",
     accentColor: "#cde03d",
 
-    dateRead: new Date("2024-01-01"),
+    dateRead: new Date("2024-01-02"),
   },
   "join-or-die": {
     title: "JOIN, OR DIE",
@@ -159,6 +159,20 @@ const books: Record<string, Book> = {
     color: "#FF4444",
     accentColor: "#000000",
     dateRead: new Date("2025-05-04"),
+  },
+  "the-time-machine": {
+    title: "The Time Machine",
+    author: "H. G. Wells",
+    color: "#4d1c00",
+    accentColor: "#f5f5f5",
+    dateRead: new Date("2025-05-10"),
+  },
+  "computer-networking-a-top-down-approach": {
+    title: "Computer Networking: A Top-Down Approach",
+    author: "Jim Kurose and Keith Ross",
+    color: "#000000",
+    accentColor: "#ffffff",
+    dateRead: new Date("2025-05-16"),
   },
 };
 

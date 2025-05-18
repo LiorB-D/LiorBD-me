@@ -22,10 +22,10 @@ export default function Page() {
     img_url: string;
   }> = [
     {
-      title: "Computer Networking: A Top-Down Approach",
-      author: "Jim Kurose and Keith Ross",
-      img_url:
-        "https://m.media-amazon.com/images/I/51vT3X2tdtL._AC_UY436_FMwebp_QL65_.jpg",
+      title:
+        "Working in Public: The Making and Maintenance of Open Source Software",
+      author: "Nadia Eghbal",
+      img_url: "https://m.media-amazon.com/images/I/61eKpnU9c+L._SY522_.jpg",
     },
     {
       title: "Man is not alone: A Philosophy of Religion",
@@ -49,7 +49,7 @@ export default function Page() {
         {currentlyReading.map((book) => (
           <div
             key={book.title}
-            className="glossy-bg p-4 flex rounded-xl gap-x-8"
+            className="glossy-bg p-4 flex rounded-xl gap-x-8 w-full"
           >
             <Image
               src={book.img_url}
