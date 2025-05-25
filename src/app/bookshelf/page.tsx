@@ -23,9 +23,9 @@ export default function Page() {
   }> = [
     {
       title:
-        "Working in Public: The Making and Maintenance of Open Source Software",
-      author: "Nadia Eghbal",
-      img_url: "https://m.media-amazon.com/images/I/61eKpnU9c+L._SY522_.jpg",
+        "Database Internals: A deep-dive into how distributed data systems work",
+      author: "Alex Petrov",
+      img_url: "https://m.media-amazon.com/images/I/91UYIt74czL._SY522_.jpg",
     },
     {
       title: "Man is not alone: A Philosophy of Religion",

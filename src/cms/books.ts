@@ -174,6 +174,13 @@ const books: Record<string, Book> = {
     accentColor: "#ffffff",
     dateRead: new Date("2025-05-16"),
   },
+  "working-in-public": {
+    title: "Working in Public",
+    author: "Nadia Eghbal",
+    color: "#FF4444",
+    accentColor: "#FFFF99",
+    dateRead: new Date("2025-05-25"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {
