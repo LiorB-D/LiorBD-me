@@ -21,7 +21,7 @@ Technologies I'm comfortable with include:
 `;
 export default function Page() {
   return (
-    <div>
+    <div className="fade-in">
       <h1 className="mb-10 text-4xl">🛠️ Freelancing</h1>
       <MarkdownBlock content={content} />
     </div>

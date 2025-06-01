@@ -6,6 +6,18 @@ const HOTGLUE_EXPLANATION = `
 Hotglue is an Integration Platform as a Service (iPaaS), built on the Open Source Singer Spec.
 
 I primarily work on our integrations, CLI, documentation, and help our customers integrate with Hotglue.
+
+Hotglue is an Integration Platform as a Service (iPaaS), built on the Open Source Singer Spec.
+
+I primarily work on our integrations, CLI, documentation, and help our customers integrate with Hotglue.
+
+Hotglue is an Integration Platform as a Service (iPaaS), built on the Open Source Singer Spec.
+
+I primarily work on our integrations, CLI, documentation, and help our customers integrate with Hotglue.
+
+Hotglue is an Integration Platform as a Service (iPaaS), built on the Open Source Singer Spec.
+
+I primarily work on our integrations, CLI, documentation, and help our customers integrate with Hotglue.
 `;
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -47,8 +59,8 @@ It's built with React Native.
 export default function Home() {
   return (
     <div>
-      <h1 className="text-4xl">👋 Hi, I&apos;m Lior</h1>
-      <h3 className="mt-10 text-lg">
+      <h1 className="text-4xl fade-in">👋 Hi, I&apos;m Lior</h1>
+      <h3 className="mt-10 text-lg fade-in">
         I&apos;m a software engineer based in Washington, DC. <br />I build
         developer tooling at{" "}
         <a
@@ -59,13 +71,13 @@ export default function Home() {
         </a>
         , study Math, and make small games and apps.
       </h3>
-      <h3 className="text-lg">
+      <h3 className="text-lg fade-in">
         I previously studied Math and Economics at the University of Virginia.
       </h3>
-      <section className="mt-10">
+      <section className="mt-10 fade-in">
         <MarkdownBlock content={HOTGLUE_EXPLANATION} />
       </section>
-      <section>
+      <section className="fade-in">
         <MarkdownBlock content={GAMES_EXPLANATION} />
       </section>
     </div>

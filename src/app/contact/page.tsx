@@ -7,7 +7,7 @@ You can also reach me on [Twitter](https://x.com/liorb_d) or [LinkedIn](https://
 `;
 export default function Page() {
   return (
-    <div>
+    <div className="fade-in">
       <h1 className="mb-10 text-4xl">📬 Contact</h1>
       <MarkdownBlock content={content} />
     </div>

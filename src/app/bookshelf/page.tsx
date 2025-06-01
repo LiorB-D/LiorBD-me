@@ -35,7 +35,7 @@ export default function Page() {
   ];
 
   return (
-    <div>
+    <div className="fade-in">
       <h1 className="text-4xl">📖 Bookshelf</h1>
       <h2 className="mt-6 text-lg">I&apos;m currently reading:</h2>
 
