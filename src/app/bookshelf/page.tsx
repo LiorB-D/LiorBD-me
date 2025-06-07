@@ -27,11 +27,6 @@ export default function Page() {
       author: "Alex Petrov",
       img_url: "https://m.media-amazon.com/images/I/91UYIt74czL._SY522_.jpg",
     },
-    {
-      title: "Man is not alone: A Philosophy of Religion",
-      author: "Abraham Joshua Heschel",
-      img_url: "https://m.media-amazon.com/images/I/815YPHSSmoL._SY522_.jpg",
-    },
   ];
 
   return (

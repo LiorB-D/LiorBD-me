@@ -181,6 +181,13 @@ const books: Record<string, Book> = {
     accentColor: "#FFFF99",
     dateRead: new Date("2025-05-25"),
   },
+  "man-is-not-alone": {
+    title: "Man is Not Alone",
+    author: "Abraham Joshua Heschel",
+    color: "#FFFF99",
+    accentColor: "#000000",
+    dateRead: new Date("2025-06-07"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {
