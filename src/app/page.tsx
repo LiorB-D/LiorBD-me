@@ -6,18 +6,6 @@ const HOTGLUE_EXPLANATION = `
 Hotglue is an Integration Platform as a Service (iPaaS), built on the Open Source Singer Spec.
 
 I primarily work on our integrations, CLI, documentation, and help our customers integrate with Hotglue.
-
-Hotglue is an Integration Platform as a Service (iPaaS), built on the Open Source Singer Spec.
-
-I primarily work on our integrations, CLI, documentation, and help our customers integrate with Hotglue.
-
-Hotglue is an Integration Platform as a Service (iPaaS), built on the Open Source Singer Spec.
-
-I primarily work on our integrations, CLI, documentation, and help our customers integrate with Hotglue.
-
-Hotglue is an Integration Platform as a Service (iPaaS), built on the Open Source Singer Spec.
-
-I primarily work on our integrations, CLI, documentation, and help our customers integrate with Hotglue.
 `;
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
