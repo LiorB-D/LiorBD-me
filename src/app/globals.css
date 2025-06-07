@@ -13,7 +13,7 @@
 
 @layer components {
   .fade-in {
-    animation: fade-in 1s ease-in-out;
+    animation: fade-in 0.5s ease-in-out;
   }
 
   .glossy-bg {
