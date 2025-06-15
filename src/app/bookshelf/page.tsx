@@ -27,6 +27,12 @@ export default function Page() {
       author: "Alex Petrov",
       img_url: "https://m.media-amazon.com/images/I/91UYIt74czL._SY522_.jpg",
     },
+    {
+      title: "Children of Time",
+      author: "Adrian Tchaikovsky",
+      img_url:
+        "https://m.media-amazon.com/images/I/81Xb8fFEkwL._AC_UY436_FMwebp_QL65_.jpg",
+    },
   ];
 
   return (
