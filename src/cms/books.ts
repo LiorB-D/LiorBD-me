@@ -188,6 +188,20 @@ const books: Record<string, Book> = {
     accentColor: "#000000",
     dateRead: new Date("2025-06-07"),
   },
+  "children-of-time": {
+    title: "Children of Time",
+    author: "Adrian Tchaikovsky",
+    color: "#0F0F0F",
+    accentColor: "#BBFFBB",
+    dateRead: new Date("2025-07-20"),
+  },
+  "database-internals": {
+    title: "Database Internals",
+    author: "Alex Petrov",
+    color: "#FAFAFA",
+    accentColor: "#0B0B0B",
+    dateRead: new Date("2025-07-22"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {
