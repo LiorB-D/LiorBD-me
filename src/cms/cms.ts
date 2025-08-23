@@ -61,6 +61,7 @@ export const BLOGS: Record<string, BlogContent> = {
     title: "Let Yourself Be Embraced",
     content: LET_YOURSELF_BE_EMBRACED,
     date: new Date("2024-01-22"),
+    hidden: true,
   },
   "quarter-counter-arguments": {
     title: "Quarterly Counter Arguments",
@@ -82,6 +83,7 @@ export const BLOGS: Record<string, BlogContent> = {
     title: "A Short Argument for Faith",
     content: SHORT_ARGUMENT_FOR_FAITH,
     date: new Date("2024-03-23"),
+    hidden: true,
   },
   "thoughts-on-llms": {
     title: "Thoughts on LLMs",
@@ -92,6 +94,7 @@ export const BLOGS: Record<string, BlogContent> = {
     title: "Thoughts on Current Events",
     content: THOUGHTS_ON_OCT_SEVEN,
     date: new Date("2023-10-10"),
+    hidden: true,
   },
   "generating-tiktok-slop": {
     title: "Generating TikTok Slop with ffmpeg, AI, and Bash",
