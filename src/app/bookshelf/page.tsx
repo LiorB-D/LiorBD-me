@@ -22,10 +22,10 @@ export default function Page() {
     img_url: string;
   }> = [
     {
-      title: "Blitzscaling",
-      author: "Reid Hoffman",
+      title: "Elements of Eloquence",
+      author: "Mark Forsyth",
       img_url:
-        "https://m.media-amazon.com/images/I/41lJb4+cHUL._SY445_SX342_ControlCacheEqualizer_.jpg",
+        "https://m.media-amazon.com/images/I/61w6qwGuq1L._AC_UY436_FMwebp_QL65_.jpg",
     },
     {
       title: "Crafting Interpreters",

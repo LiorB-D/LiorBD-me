@@ -202,6 +202,13 @@ const books: Record<string, Book> = {
     accentColor: "#0B0B0B",
     dateRead: new Date("2025-07-22"),
   },
+  "dune-messiah": {
+    title: "Dune Messiah",
+    author: "Frank Herbert",
+    color: "#330033",
+    accentColor: "#FFFFFF",
+    dateRead: new Date("2025-08-23"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {
