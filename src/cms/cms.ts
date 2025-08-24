@@ -9,6 +9,7 @@ import QUARTERLY_COUNTER_ARGUMENTS from "./posts/QuarterlyCounterArguments";
 import RANDOM_WALKS_1D from "./posts/RandomWalks1D";
 import SALES_AND_CUSTOMER_DISCOVERY from "./posts/SalesAndCustomerDiscovery";
 import SHORT_ARGUMENT_FOR_FAITH from "./posts/ShortArgumentForFaith";
+import SIGNAL_MARKET_COLLAPSE from "./posts/SignalMarketCollapse";
 import SIMPLICIAL_COMPLEXES from "./posts/SimplicialComplexes";
 import SURVEY_OF_MATH_SPACES from "./posts/SurveyMathSpaces";
 import THOUGHTS_ON_LLMS from "./posts/ThoughtsOnLLMs";
@@ -100,6 +101,11 @@ export const BLOGS: Record<string, BlogContent> = {
     title: "Generating TikTok Slop with ffmpeg, AI, and Bash",
     content: GENERATING_TIKTOK_SLOP,
     date: new Date("2024-12-27"),
+  },
+  "signal-market-collapse": {
+    title: "There's No Gold in Removing Signaling Costs",
+    content: SIGNAL_MARKET_COLLAPSE,
+    date: new Date("2025-08-23"),
   },
 };
 export default function getBlogContent(slug: string): BlogContent {
