@@ -125,7 +125,7 @@ However, after the transaction cost was removed, Rachel can no longer expect the
 To make the math simple here, suppose Rachel will never accept the Taco or Quesadilla, but will always accept the Burrito.
 
 When Rachel receives a call, there are three possible outcomes:
-- Sam is calling, Rachel nets $1 as math above
+- Sam is calling, Rachel nets $1 (see math above)
 - Sylvia is calling, Rachel loses $3 in consideration cost
 - Siraj is calling, Rachel loses $3 in consideration cost
 
