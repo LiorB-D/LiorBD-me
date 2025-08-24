@@ -71,7 +71,7 @@ When she receives a phone call from Sam, she instantly knows that Sam has a rele
 In this game, the phone call (or lack thereof) **signals** to the receiver the relevance of the offer.
 
 The fact that Sam is willing to pay the transaction cost ($10), 
-**signals** to Rachel that he believes he has a decent change of making an offer that Rachel wants.
+**signals** to Rachel that he believes he has a decent chance of making an offer that Rachel wants.
 
 Game theorists call equilibriums like this a **Separating Equilibrium**, 
 as the receiver can use the signal to separate the senders apart from one another.
@@ -84,7 +84,7 @@ so senders only make an offer if it has a sufficient chance of being accepted.
 
 I will introduce one more component to our sales game: The very real cost which receivers bear when receiving messages.
 
-In dating, hiring, and, admissions considering offers takes real time and money.
+In dating, hiring, and admissions, considering offers takes real time and money.
 
 Receivers in these games are constantly looking for ways to filter out the low value options and avoid the consideration cost.
 
@@ -146,12 +146,12 @@ This trend has occurred to some extent in:
 - Cold LinkedIn outreach
 - Dating (Cost of expressing interest has gone down via swiping)
 
-The transaction cost was the pillar on which the signaling game rests.
+The transaction cost was the pillar on which these signaling games rested.
 
 You cannot remove the pillar without removing the market as a whole.
 
 I anticipate three things:
-- These *Signal Collapser* startups will make money in the next 5 years
+- These *Signal Collapser* startups will make some money in the next 5 years
 - These *Signal Collapser* startups will all decline afterwards as the pooling equilibrium is reached.
 - There will be new startups built around reconstructing transaction costs in these markets
 
