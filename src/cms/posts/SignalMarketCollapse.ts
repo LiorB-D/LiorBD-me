@@ -70,7 +70,7 @@ When she receives a phone call from Sam, she instantly knows that Sam has a rele
 
 In this game, the phone call (or lack thereof) **signals** to the receiver the relevance of the offer.
 
-The fact that Sam is willing to pay the transaction cost ($10), 
+The fact that Sam is willing to pay the transaction cost ($5), 
 **signals** to Rachel that he believes he has a decent chance of making an offer that Rachel wants.
 
 Game theorists call equilibriums like this a **Separating Equilibrium**, 
