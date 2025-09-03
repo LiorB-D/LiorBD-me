@@ -209,6 +209,20 @@ const books: Record<string, Book> = {
     accentColor: "#FFFFFF",
     dateRead: new Date("2025-08-23"),
   },
+  "crafting-interpreters": {
+    title: "Crafting Interpreters",
+    author: "Robert Nystrom",
+    color: "#EEEEAA",
+    accentColor: "#212121",
+    dateRead: new Date("2025-08-30"),
+  },
+  "elements-of-eloquence": {
+    title: "Elements of Eloquence",
+    author: "Mark Forsyth",
+    color: "#DEDE88",
+    accentColor: "#55AA55",
+    dateRead: new Date("2025-08-29"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {

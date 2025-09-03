@@ -22,15 +22,10 @@ export default function Page() {
     img_url: string;
   }> = [
     {
-      title: "Elements of Eloquence",
-      author: "Mark Forsyth",
+      title: "The Soul of a New Machine",
+      author: "Tracy Kidder",
       img_url:
-        "https://m.media-amazon.com/images/I/61w6qwGuq1L._AC_UY436_FMwebp_QL65_.jpg",
-    },
-    {
-      title: "Crafting Interpreters",
-      author: "Robert Nystrom",
-      img_url: "https://m.media-amazon.com/images/I/61cDxGe2YUL._SY522_.jpg",
+        "https://m.media-amazon.com/images/I/41R8uislYDL._SY445_SX342_ControlCacheEqualizer_.jpg",
     },
   ];
 
