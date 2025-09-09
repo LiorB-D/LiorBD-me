@@ -25,7 +25,12 @@ export default function Page() {
       title: "The Soul of a New Machine",
       author: "Tracy Kidder",
       img_url:
-        "https://m.media-amazon.com/images/I/41R8uislYDL._SY445_SX342_ControlCacheEqualizer_.jpg",
+        "https://m.media-amazon.com/images/I/51c4Ne3S71L._SY445_SX342_ControlCacheEqualizer_.jpg",
+    },
+    {
+      title: "Boom: Bubbles and the End of Stagnation",
+      author: "Byrne Hobart & Tobias Huber",
+      img_url: "https://m.media-amazon.com/images/I/71iqAd7GFgL._SY522_.jpg",
     },
   ];
 
