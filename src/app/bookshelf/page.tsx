@@ -22,15 +22,15 @@ export default function Page() {
     img_url: string;
   }> = [
     {
-      title: "The Soul of a New Machine",
-      author: "Tracy Kidder",
-      img_url:
-        "https://m.media-amazon.com/images/I/51c4Ne3S71L._SY445_SX342_ControlCacheEqualizer_.jpg",
-    },
-    {
       title: "Boom: Bubbles and the End of Stagnation",
       author: "Byrne Hobart & Tobias Huber",
       img_url: "https://m.media-amazon.com/images/I/71iqAd7GFgL._SY522_.jpg",
+    },
+    {
+      title: "Designing Data-Intensive Applications",
+      author: "Martin Kleppmann",
+      img_url:
+        "https://m.media-amazon.com/images/I/91YfNb49PLL._AC_UY436_FMwebp_QL65_.jpg",
     },
   ];
 

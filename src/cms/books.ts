@@ -223,6 +223,13 @@ const books: Record<string, Book> = {
     accentColor: "#55AA55",
     dateRead: new Date("2025-08-29"),
   },
+  "the-soul-of-a-new-machine": {
+    title: "The Soul of a New Machine",
+    author: "Tracy Kidder",
+    color: "#772222",
+    accentColor: "#EEFFFF",
+    dateRead: new Date("2025-09-01"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {
