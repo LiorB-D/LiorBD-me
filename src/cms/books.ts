@@ -230,6 +230,13 @@ const books: Record<string, Book> = {
     accentColor: "#EEFFFF",
     dateRead: new Date("2025-09-01"),
   },
+  "boom-bubbles-and-the-end-of-stagnation": {
+    title: "Boom: Bubbles and the End of Stagnation",
+    author: "Byrne Hobart & Tobias Huber",
+    color: "#AA4444",
+    accentColor: "#FFFFFF",
+    dateRead: new Date("2025-09-28"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {
