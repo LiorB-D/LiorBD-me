@@ -1,5 +1,6 @@
 import MarkdownBlock from "./components/Markdown";
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const HOTGLUE_EXPLANATION = `
 ## Hotglue
 
@@ -30,6 +31,7 @@ For example, it might be the case that heat only flows within the base of the pa
 A connection matrix is a way to describe how the pieces of the Morse decomposition relate to each other.
 `;
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const GAMES_EXPLANATION = `
 ## Game Development
 
@@ -62,12 +64,9 @@ export default function Home() {
       <h3 className="text-lg fade-in">
         I previously studied Math and Economics at the University of Virginia.
       </h3>
-      <section className="mt-10 fade-in">
+      {/* <section className="mt-10 fade-in">
         <MarkdownBlock content={HOTGLUE_EXPLANATION} />
-      </section>
-      <section className="fade-in">
-        <MarkdownBlock content={GAMES_EXPLANATION} />
-      </section>
+      </section> */}
     </div>
   );
 }

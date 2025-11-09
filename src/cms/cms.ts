@@ -109,7 +109,7 @@ export const BLOGS: Record<string, BlogContent> = {
     date: new Date("2025-08-23"),
   },
   burnout: {
-    title: "Burnout",
+    title: "Beating Burnout",
     content: BURNOUT,
     date: new Date("2025-11-09"),
   },
