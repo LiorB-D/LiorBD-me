@@ -1,5 +1,3 @@
-import MarkdownBlock from "./components/Markdown";
-
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const HOTGLUE_EXPLANATION = `
 ## Hotglue
