@@ -14,6 +14,7 @@ import SIMPLICIAL_COMPLEXES from "./posts/SimplicialComplexes";
 import SURVEY_OF_MATH_SPACES from "./posts/SurveyMathSpaces";
 import THOUGHTS_ON_LLMS from "./posts/ThoughtsOnLLMs";
 import THOUGHTS_ON_OCT_SEVEN from "./posts/ThoughtsOnOctSeven";
+import BURNOUT from "./posts/Burnout";
 
 export type BlogContent = {
   title: string;
@@ -106,6 +107,11 @@ export const BLOGS: Record<string, BlogContent> = {
     title: "There's No Gold in Removing Signaling Costs",
     content: SIGNAL_MARKET_COLLAPSE,
     date: new Date("2025-08-23"),
+  },
+  burnout: {
+    title: "Burnout",
+    content: BURNOUT,
+    date: new Date("2025-11-09"),
   },
 };
 export default function getBlogContent(slug: string): BlogContent {
