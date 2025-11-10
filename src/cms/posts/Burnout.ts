@@ -7,7 +7,7 @@ I pity you if you've never felt that before.
 
 I'm someone who finds fulfillment in labor. 
 I like to work on projects from start to finish. I like to be challenged intellectually.
-I like to learn and I like to create. All those things require labor. In fact, I've found there's few things in life that do not require labor.
+I like to learn and I like to create. All those things require labor. In fact, I've found there's few things worthwhile in life that do not require labor.
 
 And so, as someone who finds fulfillment in labor, from time to time I do burnout.
 
