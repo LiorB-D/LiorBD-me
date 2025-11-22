@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        asul: ["var(--font-asul)"],
+        juliusOne: ["var(--font-julius-sans-one)"],
+      },
     },
   },
   plugins: [],

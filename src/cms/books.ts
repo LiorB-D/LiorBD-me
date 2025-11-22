@@ -237,6 +237,13 @@ const books: Record<string, Book> = {
     accentColor: "#FFFFFF",
     dateRead: new Date("2025-09-28"),
   },
+  "the-jewish-war": {
+    title: "The Jewish War",
+    author: "Flavius Josephus",
+    color: "#FFFF99",
+    accentColor: "#000000",
+    dateRead: new Date("2025-11-22"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {

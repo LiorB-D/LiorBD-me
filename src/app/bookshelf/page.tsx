@@ -22,11 +22,6 @@ export default function Page() {
     img_url: string;
   }> = [
     {
-      title: "The Jewish War",
-      author: "Flavius Josephus, translated by Betty Radice",
-      img_url: "https://m.media-amazon.com/images/I/7146B29NP5L._SY522_.jpg",
-    },
-    {
       title: "Designing Data-Intensive Applications",
       author: "Martin Kleppmann",
       img_url:

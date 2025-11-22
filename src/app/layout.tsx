@@ -1,17 +1,12 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { Asul } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+const asul = Asul({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-asul",
 });
 
 export const metadata: Metadata = {
@@ -28,10 +23,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-blue-50`}
-      >
+    <html lang="en" className={`${asul.variable}`}>
+      <body className={`font-asul antialiased bg-yellow-50`}>
         <div className="flex items-start justify-center pt-[150px]">
           <Navbar />
           <div className="px-10 max-w-[95%] sm:px-20 w-[768px] pb-[400px]">
