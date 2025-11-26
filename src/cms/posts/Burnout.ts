@@ -1,7 +1,7 @@
 const BURNOUT = `
 Burnout is so named because there was at once a flame. 
 
-You got out of bed because there was work to do and you could not sleep because their was work to be done.
+You got out of bed because there was work to do and you could not sleep because there was work to be done.
 
 I pity you if you've never felt that before.
 
