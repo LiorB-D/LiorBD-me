@@ -15,6 +15,7 @@ import SURVEY_OF_MATH_SPACES from "./posts/SurveyMathSpaces";
 import THOUGHTS_ON_LLMS from "./posts/ThoughtsOnLLMs";
 import THOUGHTS_ON_OCT_SEVEN from "./posts/ThoughtsOnOctSeven";
 import BURNOUT from "./posts/Burnout";
+import OPTIMIZING_CODE_FOR_HUMAN_MEMORY from "./posts/OptimizingForHumanMemory";
 
 export type BlogContent = {
   title: string;
@@ -112,6 +113,11 @@ export const BLOGS: Record<string, BlogContent> = {
     title: "Beating Burnout",
     content: BURNOUT,
     date: new Date("2025-11-09"),
+  },
+  "optimizing-code-for-human-memory": {
+    title: "Optimizing Code for Human Memory",
+    content: OPTIMIZING_CODE_FOR_HUMAN_MEMORY,
+    date: new Date("2025-12-06"),
   },
 };
 export default function getBlogContent(slug: string): BlogContent {
