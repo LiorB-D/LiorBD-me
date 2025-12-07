@@ -27,6 +27,11 @@ export default function Page() {
       img_url:
         "https://m.media-amazon.com/images/I/91YfNb49PLL._AC_UY436_FMwebp_QL65_.jpg",
     },
+    {
+      title: "An Elegant Puzzle: Systems of Engineering Management",
+      author: "Will Larson",
+      img_url: "https://m.media-amazon.com/images/I/71gCONZS6wL._SY342_.jpg",
+    },
   ];
 
   return (
