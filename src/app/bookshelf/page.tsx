@@ -32,6 +32,12 @@ export default function Page() {
       author: "Will Larson",
       img_url: "https://m.media-amazon.com/images/I/71gCONZS6wL._SY342_.jpg",
     },
+    {
+      title:
+        "Sephardic and Mizrahi Jewry: From the Golden Age of Spain to Modern Times",
+      author: "Zion Zohar",
+      img_url: "https://m.media-amazon.com/images/I/61wkBmwWt2L._SL1360_.jpg",
+    },
   ];
 
   return (
