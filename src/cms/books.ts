@@ -244,6 +244,20 @@ const books: Record<string, Book> = {
     accentColor: "#000000",
     dateRead: new Date("2025-11-22"),
   },
+  "an-elegant-puzzle": {
+    title: "An Elegant Puzzle: Systems of Engineering Management",
+    author: "Will Larson",
+    color: "#FFFFFF",
+    accentColor: "#000000",
+    dateRead: new Date("2025-12-15"),
+  },
+  "designing-data-intensive-applications": {
+    title: "Designing Data-Intensive Applications",
+    author: "Martin Kleppmann",
+    color: "#FFFFFF",
+    accentColor: "#880000",
+    dateRead: new Date("2025-12-15"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {
