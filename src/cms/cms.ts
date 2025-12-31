@@ -16,6 +16,7 @@ import THOUGHTS_ON_LLMS from "./posts/ThoughtsOnLLMs";
 import THOUGHTS_ON_OCT_SEVEN from "./posts/ThoughtsOnOctSeven";
 import BURNOUT from "./posts/Burnout";
 import OPTIMIZING_CODE_FOR_HUMAN_MEMORY from "./posts/OptimizingForHumanMemory";
+import TANSTAAFL from "./posts/TANSTAAFL";
 
 export type BlogContent = {
   title: string;
@@ -118,6 +119,11 @@ export const BLOGS: Record<string, BlogContent> = {
     title: "Optimizing Code for Human Memory",
     content: OPTIMIZING_CODE_FOR_HUMAN_MEMORY,
     date: new Date("2025-12-06"),
+  },
+  taanstaafl: {
+    title: "TANSTAAFL",
+    content: TANSTAAFL,
+    date: new Date("2025-12-31"),
   },
 };
 export default function getBlogContent(slug: string): BlogContent {
