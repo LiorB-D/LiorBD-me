@@ -10,7 +10,7 @@ without something valued in its place.
 
 <br/>
 
-So forfeit your mounds of time and energy
+So forfeit your mounds of time and space
 
 and get cathedrals of beauty and grace.
 
