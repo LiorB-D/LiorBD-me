@@ -22,10 +22,19 @@ export default function Page() {
     img_url: string;
   }> = [
     {
-      title:
-        "Sephardic and Mizrahi Jewry: From the Golden Age of Spain to Modern Times",
-      author: "Zion Zohar",
-      img_url: "https://m.media-amazon.com/images/I/61wkBmwWt2L._SL1360_.jpg",
+      title: "There is no antimemetics division",
+      author: "qntm",
+      img_url: "https://m.media-amazon.com/images/I/81B9pHqV94L._SY522_.jpg",
+    },
+    {
+      title: "Nature and Selected Essays",
+      author: "Ralph Waldo Emerson",
+      img_url: "https://m.media-amazon.com/images/I/91MPCL8ABKL._SY522_.jpg",
+    },
+    {
+      title: "Effective Software Testing",
+      author: "Mauricio Aniche",
+      img_url: "https://m.media-amazon.com/images/I/71YWAJzRTNL._SY522_.jpg",
     },
   ];
 

@@ -258,6 +258,14 @@ const books: Record<string, Book> = {
     accentColor: "#880000",
     dateRead: new Date("2025-12-15"),
   },
+  "sephardi-and-mizahi-jewry": {
+    title:
+      "Sephardic and Mizrahi Jewry: From the Golden Age of Spain to Modern Times",
+    author: "Zion Zohar",
+    color: "#FFFFFF",
+    accentColor: "#000000",
+    dateRead: new Date("2026-01-04"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {
