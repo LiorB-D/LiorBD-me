@@ -17,6 +17,7 @@ import THOUGHTS_ON_OCT_SEVEN from "./posts/ThoughtsOnOctSeven";
 import BURNOUT from "./posts/Burnout";
 import OPTIMIZING_CODE_FOR_HUMAN_MEMORY from "./posts/OptimizingForHumanMemory";
 import TANSTAAFL from "./posts/TANSTAAFL";
+import HOW_TO_ASK_QUESTIONS from "./posts/HowToAskQuestions";
 
 export type BlogContent = {
   title: string;
@@ -124,6 +125,11 @@ export const BLOGS: Record<string, BlogContent> = {
     title: "TANSTAAFL",
     content: TANSTAAFL,
     date: new Date("2025-12-31"),
+  },
+  "how-to-ask-questions": {
+    title: "How and when to ask for help",
+    content: HOW_TO_ASK_QUESTIONS,
+    date: new Date("2026-01-25"),
   },
 };
 export default function getBlogContent(slug: string): BlogContent {

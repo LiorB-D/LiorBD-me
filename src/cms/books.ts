@@ -273,6 +273,13 @@ const books: Record<string, Book> = {
     accentColor: "#FF8888",
     dateRead: new Date("2026-01-18"),
   },
+  "nature-and-selected-essays": {
+    title: "Nature and Selected Essays",
+    author: "Ralph Waldo Emerson",
+    color: "#000000",
+    accentColor: "#AAFFAA",
+    dateRead: new Date("2026-01-25"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {

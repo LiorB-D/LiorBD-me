@@ -25,14 +25,15 @@ export default function Page() {
     img_url: string;
   }> = [
     {
-      title: "Nature and Selected Essays",
-      author: "Ralph Waldo Emerson",
-      img_url: "https://m.media-amazon.com/images/I/91MPCL8ABKL._SY522_.jpg",
-    },
-    {
       title: "Effective Software Testing",
       author: "Mauricio Aniche",
       img_url: "https://m.media-amazon.com/images/I/71YWAJzRTNL._SY522_.jpg",
+    },
+    {
+      title: "Fahrenheit 451",
+      author: "Ray Bradbury",
+      img_url:
+        "https://m.media-amazon.com/images/I/41D9uDfBjFL._SY445_SX342_PQ99_.jpg",
     },
   ];
 
