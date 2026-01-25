@@ -3,29 +3,27 @@ import Image from "next/image";
 
 export default function Page() {
   const allBooks = getAllBooks().sort((a, b) =>
-    a.book.dateRead > b.book.dateRead ? -1 : 1
+    a.book.dateRead > b.book.dateRead ? -1 : 1,
   );
   // Group it into shelves of max 4 books
-  const shelves = allBooks.reduce((acc, { slug, book }) => {
-    const lastShelf = acc[acc.length - 1];
-    if (!lastShelf || lastShelf.length === 4) {
-      acc.push([{ slug, book }]);
-    } else {
-      lastShelf.push({ slug, book });
-    }
-    return acc;
-  }, [] as { slug: string; book: Book }[][]);
+  const shelves = allBooks.reduce(
+    (acc, { slug, book }) => {
+      const lastShelf = acc[acc.length - 1];
+      if (!lastShelf || lastShelf.length === 4) {
+        acc.push([{ slug, book }]);
+      } else {
+        lastShelf.push({ slug, book });
+      }
+      return acc;
+    },
+    [] as { slug: string; book: Book }[][],
+  );
 
   const currentlyReading: Array<{
     title: string;
     author: string;
     img_url: string;
   }> = [
-    {
-      title: "There is no antimemetics division",
-      author: "qntm",
-      img_url: "https://m.media-amazon.com/images/I/81B9pHqV94L._SY522_.jpg",
-    },
     {
       title: "Nature and Selected Essays",
       author: "Ralph Waldo Emerson",

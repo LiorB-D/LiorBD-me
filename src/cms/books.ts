@@ -266,6 +266,13 @@ const books: Record<string, Book> = {
     accentColor: "#000000",
     dateRead: new Date("2026-01-04"),
   },
+  "there-is-no-antimemetics-division": {
+    title: "There is no antimemetics division",
+    author: "qntm",
+    color: "#0F0F0F",
+    accentColor: "#FF8888",
+    dateRead: new Date("2026-01-18"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {
