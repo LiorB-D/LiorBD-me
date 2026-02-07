@@ -6,18 +6,15 @@ export default function Page() {
     a.book.dateRead > b.book.dateRead ? -1 : 1,
   );
   // Group it into shelves of max 4 books
-  const shelves = allBooks.reduce(
-    (acc, { slug, book }) => {
-      const lastShelf = acc[acc.length - 1];
-      if (!lastShelf || lastShelf.length === 4) {
-        acc.push([{ slug, book }]);
-      } else {
-        lastShelf.push({ slug, book });
-      }
-      return acc;
-    },
-    [] as { slug: string; book: Book }[][],
-  );
+  const shelves = allBooks.reduce((acc, { slug, book }) => {
+    const lastShelf = acc[acc.length - 1];
+    if (!lastShelf || lastShelf.length === 4) {
+      acc.push([{ slug, book }]);
+    } else {
+      lastShelf.push({ slug, book });
+    }
+    return acc;
+  }, [] as { slug: string; book: Book }[][]);
 
   const currentlyReading: Array<{
     title: string;
@@ -30,10 +27,10 @@ export default function Page() {
       img_url: "https://m.media-amazon.com/images/I/71YWAJzRTNL._SY522_.jpg",
     },
     {
-      title: "Fahrenheit 451",
-      author: "Ray Bradbury",
+      title: "Slaughterhouse-Five",
+      author: "Kurt Vonnegut",
       img_url:
-        "https://m.media-amazon.com/images/I/41D9uDfBjFL._SY445_SX342_PQ99_.jpg",
+        "https://m.media-amazon.com/images/I/71Q0c9qf-1L._AC_UY436_FMwebp_QL65_.jpg",
     },
   ];
 

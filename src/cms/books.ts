@@ -280,6 +280,13 @@ const books: Record<string, Book> = {
     accentColor: "#AAFFAA",
     dateRead: new Date("2026-01-25"),
   },
+  "fahrenheit-451": {
+    title: "Fahrenheit 451",
+    author: "Ray Bradbury",
+    color: "#000000",
+    accentColor: "#FFAAAA",
+    dateRead: new Date("2026-02-02"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {
