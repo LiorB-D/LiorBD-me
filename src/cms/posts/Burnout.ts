@@ -19,7 +19,7 @@ Like all things we enjoy, that flame cannot be enjoyed if it is the only thing g
 
 ## So how to beat it
 
-Burn out clouds all that you love about your work. It fogs all that you respect about your team. 
+Burnout clouds all that you love about your work. It fogs all that you respect about your team. 
 It makes you forget the pride in labor and why labor yielded pride.
 It makes candles smell like burnt toast and look like fire hazards.
 
