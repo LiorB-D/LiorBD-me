@@ -49,17 +49,18 @@ export default function Home() {
     <div>
       <h1 className="text-4xl fade-in">👋 Hi, I&apos;m Lior</h1>
       <h3 className="mt-10 text-lg fade-in">
-        I&apos;m a software engineer based in Washington, DC. <br />I build
-        developer tooling at{" "}
+        I&apos;m a builder and writer based in Washington, DC. <br />I am the
+        Head of Engineering at{" "}
         <a
           className="cursor-pointer underline text-blue-800"
           href="https://hotglue.com"
         >
-          Hotglue
+          Hotglue{" "}
         </a>
-        , study Math, and make small games and apps.
+        and write about software, economics, and anything else that interests
+        me.
       </h3>
-      <h3 className="text-lg fade-in">
+      <h3 className="text-lg fade-in mt-2">
         I previously studied Math and Economics at the University of Virginia.
       </h3>
       {/* <section className="mt-10 fade-in">

@@ -287,6 +287,13 @@ const books: Record<string, Book> = {
     accentColor: "#FFAAAA",
     dateRead: new Date("2026-02-02"),
   },
+  "slaughterhouse-five": {
+    title: "Slaughterhouse-Five",
+    author: "Kurt Vonnegut",
+    color: "#FF6666",
+    accentColor: "#000000",
+    dateRead: new Date("2026-02-15"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {

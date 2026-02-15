@@ -1,18 +1,26 @@
 "use client";
 import Image from "next/image";
 import { Menu } from "lucide-react";
-import React from "react";
+import React, { useCallback } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 const navOptions = [
   { label: "Home", href: "/" },
   { label: "Blog", href: "/blog" },
-  { label: "Freelancing", href: "/freelancing" },
+  // { label: "Freelancing", href: "/freelancing" },
   { label: "Bookshelf", href: "/bookshelf" },
   { label: "Contact", href: "/contact" },
 ];
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const pathname = usePathname();
+  const isSelected = useCallback(
+    (href: string) => {
+      return pathname === href;
+    },
+    [pathname],
+  );
   return (
     <div className="fixed top-10 w-[90%] md:w-[768px] z-20">
       <div className="glossy-bg py-2 pl-4 pr-8 rounded-full ">
@@ -31,7 +39,7 @@ export default function Navbar() {
             {navOptions.map((option) => (
               <Link
                 href={option.href}
-                className="cursor-pointer"
+                className={`cursor-pointer ${isSelected(option.href) ? "underline underline-offset-4" : ""}`}
                 key={option.label}
               >
                 {option.label}
