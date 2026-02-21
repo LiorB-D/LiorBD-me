@@ -25,9 +25,14 @@ export default function Page() {
     img_url: string;
   }> = [
     {
-      title: "Effective Software Testing",
-      author: "Mauricio Aniche",
-      img_url: "https://m.media-amazon.com/images/I/71YWAJzRTNL._SY522_.jpg",
+      title: "1984",
+      author: "George Orwell",
+      img_url: "https://m.media-amazon.com/images/I/7180qjGSgDL._SY522_.jpg",
+    },
+    {
+      title: "Secrets of Sand Hill Road",
+      author: "Scott Kupor",
+      img_url: "https://m.media-amazon.com/images/I/712E5y5-5nL._SL1500_.jpg",
     },
   ];
 

@@ -294,6 +294,13 @@ const books: Record<string, Book> = {
     accentColor: "#000000",
     dateRead: new Date("2026-02-15"),
   },
+  "effective-software-testing": {
+    title: "Effective Software Testing",
+    author: "Mauricio Aniche",
+    color: "#DDDDDD",
+    accentColor: "#550000",
+    dateRead: new Date("2026-02-21"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {
