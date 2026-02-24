@@ -132,11 +132,6 @@ export const BLOGS: Record<string, BlogContent> = {
     content: HOW_TO_ASK_QUESTIONS,
     date: new Date("2026-01-25"),
   },
-  "post-ai-labor": {
-    title: "An optimistic view of post-AI labor",
-    content: POST_AI_LABOR,
-    date: new Date("2026-02-22"),
-  },
 };
 export default function getBlogContent(slug: string): BlogContent {
   return BLOGS[slug];
