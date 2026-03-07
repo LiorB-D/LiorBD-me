@@ -18,7 +18,6 @@ import BURNOUT from "./posts/Burnout";
 import OPTIMIZING_CODE_FOR_HUMAN_MEMORY from "./posts/OptimizingForHumanMemory";
 import TANSTAAFL from "./posts/TANSTAAFL";
 import HOW_TO_ASK_QUESTIONS from "./posts/HowToAskQuestions";
-import POST_AI_LABOR from "./posts/PostAILabor";
 
 export type BlogContent = {
   title: string;
