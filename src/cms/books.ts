@@ -301,6 +301,13 @@ const books: Record<string, Book> = {
     accentColor: "#550000",
     dateRead: new Date("2026-02-21"),
   },
+  "secrets-of-sand-hill-road": {
+    title: "Secrets of Sand Hill Road",
+    author: "Scott Kupor",
+    color: "#FFFFFF",
+    accentColor: "#000000",
+    dateRead: new Date("2026-03-15"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {

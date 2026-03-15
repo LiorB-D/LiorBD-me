@@ -30,9 +30,9 @@ export default function Page() {
       img_url: "https://m.media-amazon.com/images/I/7180qjGSgDL._SY522_.jpg",
     },
     {
-      title: "Secrets of Sand Hill Road",
-      author: "Scott Kupor",
-      img_url: "https://m.media-amazon.com/images/I/712E5y5-5nL._SL1500_.jpg",
+      title: "Thinking in Systems",
+      author: "Donella Meadows",
+      img_url: "https://m.media-amazon.com/images/I/71+QmpkC0aL._SL1500_.jpg",
     },
   ];
 
