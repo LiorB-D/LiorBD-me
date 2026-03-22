@@ -308,6 +308,13 @@ const books: Record<string, Book> = {
     accentColor: "#000000",
     dateRead: new Date("2026-03-15"),
   },
+  "covenant-and-conversation": {
+    title: "Covenant & Conversation",
+    author: "Rabbi Jonathan Sacks",
+    color: "#000000",
+    accentColor: "#FFFFFF",
+    dateRead: new Date("2026-03-21"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {

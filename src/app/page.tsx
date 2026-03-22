@@ -49,7 +49,7 @@ export default function Home() {
     <div>
       <h1 className="text-4xl fade-in">👋 Hi, I&apos;m Lior</h1>
       <h3 className="mt-10 text-lg fade-in">
-        I&apos;m a builder and writer based in Washington, DC. <br />I am the
+        I&apos;m a software engineer based in Washington, DC. <br />I am the
         Head of Engineering at{" "}
         <a
           className="cursor-pointer underline text-blue-800"
