@@ -52,7 +52,7 @@ export default function Home() {
         I&apos;m a software engineer based in Washington, DC. <br />I am the
         Head of Engineering at{" "}
         <a
-          className="cursor-pointer underline text-blue-800"
+          className="cursor-pointer underline text-blue-700"
           href="https://hotglue.com"
         >
           Hotglue{" "}
