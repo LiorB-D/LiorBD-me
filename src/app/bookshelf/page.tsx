@@ -25,9 +25,10 @@ export default function Page() {
     img_url: string;
   }> = [
     {
-      title: "1984",
-      author: "George Orwell",
-      img_url: "https://m.media-amazon.com/images/I/7180qjGSgDL._SY522_.jpg",
+      title:
+        "Site Reliability Engineering: How Google Runs Production Systems ",
+      author: "Betsy Beyer, Chris Jones, Jennifer Petoff, Niall Richard Murphy",
+      img_url: "https://m.media-amazon.com/images/I/814nAGmpAGL._SL1500_.jpg",
     },
     {
       title: "Thinking in Systems",
