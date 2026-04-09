@@ -322,6 +322,13 @@ const books: Record<string, Book> = {
     accentColor: "#FFFFFF",
     dateRead: new Date("2026-03-25"),
   },
+  "thinking-in-systems": {
+    title: "Thinking in Systems",
+    author: "Donella Meadows",
+    color: "#FFFFFF",
+    accentColor: "#228800",
+    dateRead: new Date("2026-04-01"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {

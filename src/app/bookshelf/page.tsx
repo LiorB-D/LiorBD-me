@@ -31,9 +31,9 @@ export default function Page() {
       img_url: "https://m.media-amazon.com/images/I/814nAGmpAGL._SL1500_.jpg",
     },
     {
-      title: "Thinking in Systems",
-      author: "Donella Meadows",
-      img_url: "https://m.media-amazon.com/images/I/71+QmpkC0aL._SL1500_.jpg",
+      title: "In the Heart of the Sea",
+      author: "Nathaniel Philbrick",
+      img_url: "https://m.media-amazon.com/images/I/71q1ivP-SoL._SL1500_.jpg",
     },
   ];
 
