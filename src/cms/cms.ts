@@ -18,6 +18,7 @@ import BURNOUT from "./posts/Burnout";
 import OPTIMIZING_CODE_FOR_HUMAN_MEMORY from "./posts/OptimizingForHumanMemory";
 import TANSTAAFL from "./posts/TANSTAAFL";
 import HOW_TO_ASK_QUESTIONS from "./posts/HowToAskQuestions";
+import ADVICE_FOR_JOB_SEEKERS from "./posts/AdviceForJobSeekers";
 
 export type BlogContent = {
   title: string;
@@ -130,6 +131,11 @@ export const BLOGS: Record<string, BlogContent> = {
     title: "How and when to ask for help",
     content: HOW_TO_ASK_QUESTIONS,
     date: new Date("2026-01-25"),
+  },
+  "advice-for-job-seekers": {
+    title: "Advice for Job Seekers",
+    content: ADVICE_FOR_JOB_SEEKERS,
+    date: new Date("2026-05-16"),
   },
 };
 export default function getBlogContent(slug: string): BlogContent {
