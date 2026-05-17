@@ -41,18 +41,18 @@ The most common form of job interview bullshitting comes in response to the ques
 
 Most careers do not involve saving the world. That's perfectly fine! You don't need to pretend that you have an intense passion for building B2B SaaS!
 
-The bullshit answer which I've heard a thousand times is: "I'm incredibly passionate about <niche B2B SaaS function>." 
+The bullshit answer which I've heard a thousand times is: "I'm incredibly passionate about < Niche B2B SaaS function >." 
 You are not excited. Your job interviewer works in this industry, they know it is not saving the world.
 
 Acceptable answers that can be genuine are:
 
-I want to work at a company of <Size/Stage> because...
+- I want to work at a company of < Size/Stage > because...
 
-I want to work at a company with your culture because...
+- I want to work at a company with your culture because...
 
-I want to improve as a(n) engineer/designer/marketer
+- I want to improve as a(n) engineer/designer/marketer
 
-This seems like a hard problem, and I want to solve hard problems
+- This seems like a hard problem, and I want to solve hard problems
 
 Your hiring manager's goal is to build a coherent model of who you are, what motivates you, and why you could fit into the role. 
 I typically reject candidates not because I am confident they are bad, but because I cannot build that coherent model. If you, as an applicant, attempt to obfuscate that model with bullshit, then any decent hiring manager will throw you out of the process.
