@@ -31,10 +31,9 @@ export default function Page() {
       img_url: "https://m.media-amazon.com/images/I/814nAGmpAGL._SL1500_.jpg",
     },
     {
-      title: "The Martian",
-      author: "Andy Weir",
-      img_url:
-        "https://m.media-amazon.com/images/I/71Tp86ptAtL._AC_UF1000,1000_QL80_.jpg",
+      title: "A Random Walk Down Wall Street",
+      author: "Burton Malkiel",
+      img_url: "https://m.media-amazon.com/images/I/61WCPTj3hbL._SL1200_.jpg",
     },
   ];
 

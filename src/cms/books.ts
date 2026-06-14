@@ -329,6 +329,27 @@ const books: Record<string, Book> = {
     accentColor: "#228800",
     dateRead: new Date("2026-04-01"),
   },
+  "the-martian": {
+    title: "The Martian",
+    author: "Andy Weir",
+    color: "#440000",
+    accentColor: "#ffffff",
+    dateRead: new Date("2026-05-25"),
+  },
+  "scaling-people": {
+    title: "Scaling People",
+    author: "Claire Hughes",
+    color: "#994400",
+    accentColor: "#ffffff",
+    dateRead: new Date("2026-06-01"),
+  },
+  "the-lonely-man-of-faith": {
+    title: "The Lonely Man of Faith",
+    author: "Joseph B. Soloveitchik",
+    color: "#ffb875",
+    accentColor: "#440000",
+    dateRead: new Date("2026-04-03"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {
