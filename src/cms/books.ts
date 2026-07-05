@@ -350,6 +350,13 @@ const books: Record<string, Book> = {
     accentColor: "#440000",
     dateRead: new Date("2026-04-03"),
   },
+  "a-random-walk-down-wall-street": {
+    title: "A Random Walk Down Wall Street",
+    author: "Burton Malkiel",
+    color: "#00FF00",
+    accentColor: "#000000",
+    dateRead: new Date("2026-07-03"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {
