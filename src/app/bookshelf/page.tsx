@@ -29,12 +29,7 @@ export default function Page() {
         "Site Reliability Engineering: How Google Runs Production Systems ",
       author: "Betsy Beyer, Chris Jones, Jennifer Petoff, Niall Richard Murphy",
       img_url: "https://m.media-amazon.com/images/I/814nAGmpAGL._SL1500_.jpg",
-    },
-    {
-      title: "I, Robot",
-      author: "Isaac Asimov",
-      img_url: "https://m.media-amazon.com/images/I/81ZaDgeRX3L._SL1500_.jpg",
-    },
+    }
   ];
 
   return (

@@ -357,6 +357,13 @@ const books: Record<string, Book> = {
     accentColor: "#000000",
     dateRead: new Date("2026-07-03"),
   },
+  "i-robot": {
+    title: "I, Robot",
+    author: "Isaac Asimov",
+    color: "#000000",
+    accentColor: "#FFFFFF",
+    dateRead: new Date("2026-07-18"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {

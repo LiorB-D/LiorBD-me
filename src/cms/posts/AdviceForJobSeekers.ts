@@ -23,11 +23,11 @@ In response, employers now are constantly seeking signals of intent. They need t
 
 Here are some tangible ways to achieve that:
 
-Do not use AI in your messages and application. Employers can smell Claude-speak; even if it reads fine, it is still a signal that you took the easy route
+- Do not use AI in your messages and application. Employers can smell Claude-speak; even if it reads fine, it is still a signal that you took the easy route
 
-Communicate specific, niche things about the role and company. This can be a piece of content from the company or a mutual connection with a hiring manager or current employee. It doesn't matter what it is as long as it is not low-hanging fruit and you are being genuine (see next point).
+- Communicate specific, niche things about the role and company. This can be a piece of content from the company or a mutual connection with a hiring manager or current employee. It doesn't matter what it is as long as it is not low-hanging fruit and you are being genuine (see next point).
 
-Find an opportunity to meet someone in person. If they host in-person events, go! If they are going to be at a career fair, go!
+- Find an opportunity to meet someone in person. If they host in-person events, go! If they are going to be at a career fair, go!
 
 ### Be genuine
 
