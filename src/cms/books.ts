@@ -364,6 +364,20 @@ const books: Record<string, Book> = {
     accentColor: "#FFFFFF",
     dateRead: new Date("2026-07-18"),
   },
+  "cats-cradle": {
+    title: "Cat's Cradle",
+    author: "Kurt Vonnegut",
+    color: "#AACCFF",
+    accentColor: "#000000",
+    dateRead: new Date("2026-08-10"),
+  },
+  "in-the-shadow-of-the-sword": {
+    title: "In the Shadow of the Sword",
+    author: "Tom Holland",
+    color: "#1a2a1a",
+    accentColor: "#D4AF37",
+    dateRead: new Date("2026-08-19"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {

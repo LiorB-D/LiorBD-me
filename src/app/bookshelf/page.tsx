@@ -25,11 +25,15 @@ export default function Page() {
     img_url: string;
   }> = [
     {
-      title:
-        "Site Reliability Engineering: How Google Runs Production Systems ",
-      author: "Betsy Beyer, Chris Jones, Jennifer Petoff, Niall Richard Murphy",
-      img_url: "https://m.media-amazon.com/images/I/814nAGmpAGL._SL1500_.jpg",
-    }
+      title: "The Rust Programming Language",
+      author: "Steve Klabnik and Carol Nichols",
+      img_url: "https://m.media-amazon.com/images/I/51n+IQqjlNL._SL1500_.jpg",
+    },
+    {
+      title: "John Adams",
+      author: "David McCullough",
+      img_url: "https://m.media-amazon.com/images/I/415LMbVIyGL._SL1500_.jpg",
+    },
   ];
 
   return (
