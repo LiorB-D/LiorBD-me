@@ -19,6 +19,7 @@ import OPTIMIZING_CODE_FOR_HUMAN_MEMORY from "./posts/OptimizingForHumanMemory";
 import TANSTAAFL from "./posts/TANSTAAFL";
 import HOW_TO_ASK_QUESTIONS from "./posts/HowToAskQuestions";
 import ADVICE_FOR_JOB_SEEKERS from "./posts/AdviceForJobSeekers";
+import BUILDING_SEPARATE_CHAINED_HASHMAPS_IN_RUST from "./posts/BuildingSeparateChainedHashmapsInRust";
 
 export type BlogContent = {
   title: string;
@@ -136,6 +137,11 @@ export const BLOGS: Record<string, BlogContent> = {
     title: "Advice for Job Seekers",
     content: ADVICE_FOR_JOB_SEEKERS,
     date: new Date("2026-05-16"),
+  },
+  "building-separate-chained-hashmaps-in-rust": {
+    title: "Building Separate Chained Hashmaps in Rust",
+    content: BUILDING_SEPARATE_CHAINED_HASHMAPS_IN_RUST,
+    date: new Date("2026-08-23")
   },
 };
 export default function getBlogContent(slug: string): BlogContent {
