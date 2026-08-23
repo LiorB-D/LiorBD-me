@@ -19,11 +19,11 @@ An inefficient implementation of such
 an interface would be:
 
 \`\`\`rust
-struct MyHashMap<K, V> {
+struct NotQuiteAHashMap<K, V> {
     vec: Vec<(K, V)>,
 }
 
-impl<K: PartialEq, V> MyHashMap<K, V> {
+impl<K: PartialEq, V> NotQuiteAHashMap<K, V> {
     fn insert(&mut self, k: K, v: V) {
         self.vec.push((k, v));
     }
@@ -38,9 +38,9 @@ impl<K: PartialEq, V> MyHashMap<K, V> {
 \`\`\`
 
 That get method searches linearly through the vector, taking $O(n)$
-to find the value.
+to find the value. That's no bueno.
 
-Hashmaps use a hash function
+Hashmaps instead use a hash function
 to convert that key into the
 proper index (in constant time), thereby
 making the get function $O(1)$.
@@ -103,7 +103,7 @@ How might you set up a way to quickly verify whether your file is up to date?
 The crude implementation might involve downloading the file and checking its contents against your local copy.
 This is of course quite slow and expensive. Additionally, other users would have to perform this download and check themselves.
 
-Instead, almost all file systems keep track of a checksum for each file, which is the result of hashing the file's contents.
+Instead, many file systems keep track of a checksum for each file, which is the result of hashing the file's contents.
 
 Since hash functions are deterministic, if two files have different checksums they must
 have different contents. This means checksums
@@ -231,8 +231,8 @@ When we lookup $k_2$ in the hashmap we would:
 
 
 There are many variants to probing such as:
-- Quadratic probing: Instead of finding the next available index you check the next $2^n$ position.
-- Robin-hood probing: Rearrange the positions to minimize the distance from a key's actual location to its hashed index. This is what Rust implements.
+- Quadratic probing: Instead of finding the next available index you check the next $2^n$ position. This is what Rust currently implements.
+- Robin-hood probing: Rearrange the positions to minimize the distance from a key's actual location to its hashed index. This is what Rust used to implement.
 
 ### Separate Chaining
 
