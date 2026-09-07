@@ -35,13 +35,13 @@ Intellectual achievements require agency, and too many were taught that they do 
 
 ## Those that don't know how to ask.
 
-The other problematic bucket of students are those that are willing to ask for help but do not do so productively.
+The other problematic bucket of students is those that are willing to ask for help but do not do so productively.
 
 As said before, struggling is a necessary condition of intellectual success. 
 There are many who use help as a way to avoid struggling, but they should be using help as a way to work through struggle.
 
-In training newly graduated software engineers, this usually comes through the form of an "I'm getting an error, help" message.
-In students, it comes as an unprompted "How do I do #2 on the homework?".
+In training newly graduated software engineers, this usually comes in the form of an "I'm getting an error, help" message.
+In students, it comes as an unprompted "How do I do #2 on the homework?"
 Both of these questions indicate that the student has not sufficiently struggled.
 
 I tell students there are 3 reasons they can come to me with questions.
@@ -55,7 +55,7 @@ Reaching a contradiction proves two important things:
 * They are willing to struggle towards understanding.
 * They are building a rational model of a topic.
 
-If a 5 minute conversation to resolve the contradiction lets them continue to do those two things, it is worthwhile for all parties.
+If a 5-minute conversation to resolve the contradiction lets them continue to do those two things, it is worthwhile for all parties.
 
 ### 2) You've identified the part you misunderstand and want the expert to teach you
 * "Can you walk me through the proof of Taylor's theorem?"

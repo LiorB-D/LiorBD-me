@@ -7,9 +7,9 @@ Unsurprisingly, there are many hyperbolic headlines:
 
 ![Screenshot 2023-12-28 at 7.49.26 PM.png](https://i.imgur.com/lsHGLsy.png)
 
-A lot of misinformation about STEM discoveries seem to come from assuming that *research problems are simply more complex versions of what we all had to do in high school*. This is, of course, far from the truth. 
+A lot of misinformation about STEM discoveries seems to come from assuming that *research problems are simply more complex versions of what we all had to do in high school*. This is, of course, far from the truth.
 
-In this case, the math problem is called the **Cap Set Problem**. It is not a problem with one specific solution. There are different degrees of solutions and all different kind of ways to study it.
+In this case, the math problem is called the **Cap Set Problem**. It is not a problem with one specific solution. There are different degrees of solutions and all different kinds of ways to study it.
 
 Breakthroughs on the Cap Set Problem are not displays of genius but displays of ingenuity.
 
@@ -38,7 +38,7 @@ Mathematicians are often interested in studying unconventional number systems. $
 
 Now I write the brackets to make it clear that these aren’t the normal numbers $0,1, \\text{ and } 2$. Though you will see soon that they share some key similarities.
 
-We can also construct number systems by combining $\\Z_3$ with itself. $\\Z^2_3$ is set of all pairs of elements in $\\Z_3$. $([1],[2]), ([1],[1]), \\text{ and }([0],[2])$ are all examples of elements of $\\Z_3^2$. 
+We can also construct number systems by combining $\\Z_3$ with itself. $\\Z^2_3$ is the set of all pairs of elements in $\\Z_3$. $([1],[2]), ([1],[1]), \\text{ and }([0],[2])$ are all examples of elements of $\\Z_3^2$.
 
 $([2],[4])$ is not in $\\Z_3^2$ because $[4]$ is not an element in $\\Z_3$.
 
@@ -73,7 +73,7 @@ $$
 
 An interesting (and soon to be important) thing to notice:
 
-> Let $x,y, \\text{ and } z$ be elements in $\\Z^3$. $x+y+z=[0]$ if and only $x,y, \\text{ and } z$ are all equal or all different.
+> Let $x,y, \\text{ and } z$ be elements in $\\Z^3$. $x+y+z=[0]$ if and only if $x,y, \\text{ and } z$ are all equal or all different.
 > 
 
 You can show this by hand:
@@ -108,12 +108,12 @@ $$
 
 Finally a note on notation:
 
-> For simplicities sake we write “$[0]$” and we write “$([0], [0], ..., [0])$” as simply “$0$”. Similarly for the sake of simplicity we write “$[1]$” as “$1$” and “$[2]$” as “$2$”
+> For simplicity’s sake we write “$[0]$” and we write “$([0], [0], ..., [0])$” as simply “$0$”. Similarly for the sake of simplicity we write “$[1]$” as “$1$” and “$[2]$” as “$2$”
 > 
 
 ## Returning to Cap Sets
 
-With that context, let us know return to the original definition:
+With that context, let us now return to the original definition:
 
 > Let $a,b,c$ be distinct elements of $\\Z_3^n$. We say that $a,b,c$ form a line if $a + b + c = 0$
 > 
@@ -135,7 +135,7 @@ $$
 
 Thus no three elements in our set form a line, which means $\{A,B,C,D\}$ is a Cap Set!
 
-> To get a feel for how these works, try to add a fifth element to this cap set
+> To get a feel for how these work, try to add a fifth element to this cap set
 > 
 
 ## Why not just guess and check to find all the Cap Sets?
@@ -164,9 +164,9 @@ Let $i \\in \{1,2,3,4\}$. Note that by construction $x_i, y_i, z_i$ are all not 
 
 Thus the only way for $x_i + y_i + z_i = 0$ to be satisfied is if $x_i = y_i = z_i$.
 
-However, if $x+y+z = 0$ then this must hold for each $i \\in \{1,2,3,4\}$. This would mean $x=y=z$, which cannot be case since we require them to be distinct elements of $\\Z_3^4$. Theriein lies the contradiction.
+However, if $x+y+z = 0$ then this must hold for each $i \\in \{1,2,3,4\}$. This would mean $x=y=z$, which cannot be the case since we require them to be distinct elements of $\\Z_3^4$. Therein lies the contradiction.
 
-Thus no three distinct elements of $\\Z_3^4$ that satisfy our rule could possibly form a line. This means the set of all elements of $\\Z_3^4$, which do no contain $2$, form a Cap Set.
+Thus no three distinct elements of $\\Z_3^4$ that satisfy our rule could possibly form a line. This means the set of all elements of $\\Z_3^4$, which do not contain $2$, forms a Cap Set.
 </aside>
 
 ## What did Google DeepMind discover?
@@ -175,14 +175,14 @@ What makes problems like the Cap Set Problem so great for LLMs is that progress 
 
 It is made by designing clever algorithms and techniques. **To say it differently, it is an art not a science.**
 
-The DeepMind team created a model called *FunSearch* which attempts to find these algorithms using LLMs. Any further explanation of there method would not do it justice, but I encourage you to read more [here](https://deepmind.google/discover/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/).
+The DeepMind team created a model called *FunSearch* which attempts to find these algorithms using LLMs. Any further explanation of their method would not do it justice, but I encourage you to read more [here](https://deepmind.google/discover/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/).
 
 They discovered:
 
 - A cap set of size 512 for $\\Z_3^8$, which is the largest Cap Set ever found for $\\Z_3^8$. We do not yet know how large a Cap Set in $\\Z_3^8$ can be.
 - Let $c_n$ be the size of the largest Cap set in $\\Z_3^n$. Mathematicians are also interested in the size of the value $\\sup_{n}\\sqrt[n]{c_n}$. You can think of this value as the limit as $n$ goes to infinity of $\\sqrt[n]{c_n}$. *FunSearch* found a new lower bound for this value of $2.2202$. This is the largest improvement to estimating the lower bound in the past 20 years.
 
-These breakthroughs are an extremely promising look into what AI-assisted STEM research is capable of. There are no shortage of these types of problems. We’ve already seen similar breakthroughs (Much of which conducted by the DeepMind team) in areas such as:
+These breakthroughs are an extremely promising look into what AI-assisted STEM research is capable of. There is no shortage of these types of problems. We’ve already seen similar breakthroughs (Many of which were conducted by the DeepMind team) in areas such as:
 
 - Sphere Packing
 - Knot Theory

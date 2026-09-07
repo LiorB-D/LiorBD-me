@@ -16,7 +16,7 @@ I can place my conversations into four buckets based on how I approach them:
 
 Going off my opening intro alone, it seems the 1st and 3rd would be solidly in the customer discovery category and the 2nd and 4th would lie in the sales category.
 
-This did not end up the being the case.
+This did not end up being the case.
 
 In actuality:
 
@@ -25,9 +25,9 @@ In actuality:
 
 ## Nuance hides in the no’s
 
-The sales version of the Anna Karenina principle is something like 'the nuance hides in the no’s”.
+The sales version of the Anna Karenina principle is something like “the nuance hides in the no’s”.
 
-If someone instantly says yes to a sales pitch, you haven’t really revealed anything. Obviously you made a sale which is great; But you didn’t learn something deep about your customers.
+If someone instantly says yes to a sales pitch, you haven’t really revealed anything. Obviously you made a sale which is great; but you didn’t learn something deep about your customers.
 
 The no’s are the most revealing. 
 
@@ -37,7 +37,7 @@ Here are some quotes from Publishers and Advertisers who said no to using Gruvia
     - We need a way to combat low fill rates for our early publishers
     - Integration should be seamless
 - “I’m not looking to buy ads on a platform I don’t know yet. But if you think more than 1 in a 1000 will convert, my affiliate links will be more profitable than your usual ads.”
-    - Affiliate links de-risk the ad spend from the advertisers perspective
+    - Affiliate links de-risk the ad spend from the advertiser’s perspective
     - There is also a theoretically infinite supply of affiliate campaigns to run, which solves the fill rate challenge
 
 When someone responds with a detailed no, you get to discover the contours of their preferences. You can get a sense of the boundary between what they would and would not purchase.

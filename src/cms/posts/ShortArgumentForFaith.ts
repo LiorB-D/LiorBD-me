@@ -1,5 +1,5 @@
 const SHORT_ARGUMENT_FOR_FAITH = `
-I find two arguments about faith particularly frustrating
+I find two arguments about faith particularly frustrating:
 
 > The bible is correct because \\<Insert misleading interpretation of archeological discovery> and \\<Insert logically inconsistent argument for the existence of god>
 > 
@@ -9,7 +9,7 @@ I find two arguments about faith particularly frustrating
 
 It is a waste of time to try and prove the scientific validity of faith. The point of faith is not to be logically robust.
 
-Faith is a vehicle for happiness; It’s a vehicle for community; It’s a vehicle for comfort in the midst of the lowest points in life.
+Faith is a vehicle for happiness; it’s a vehicle for community; it’s a vehicle for comfort in the midst of the lowest points in life.
 
 Humans are particularly great at buying into fictional systems that bring us emotional utility.
 

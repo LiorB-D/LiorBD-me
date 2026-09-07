@@ -1,6 +1,6 @@
 const POST_AI_LABOR = `
 I am stumped as to why the most outspoken pessimists of the AI future are leaders of frontier labs. 
-If they are genuine doomers, they would surely not dedicate their lives to bring about the apocalypse? 
+If they are genuine doomers, they would surely not dedicate their lives to bringing about the apocalypse?
 
 
 
@@ -37,8 +37,8 @@ It is easier to imagine a customer service rep at a large firm, or an assembly l
 The latter are not given decision trees on their first day. 
 They work in diverse environments, diagnose the ill-defined, and interact with consumers to balance tradeoffs. 
 
-The things about these jobs which make them hard to automate, are precisely the things that make these jobs fulfilling for a human being. 
-Computers will handle the monotony, humans will handle everything else.
+The things about these jobs which make them hard to automate are precisely the things that make these jobs fulfilling for a human being.
+Computers will handle the monotony; humans will handle everything else.
 
 ### Human Interaction
 
@@ -47,7 +47,7 @@ Contrary to what many tech companies want you to believe, the soul yearns for hu
 A teacher is not one who writes on chalkboards, a therapist is not a sycophant, and an influencer is not a friend.
 No one who has tasted the highs of human connection would, all else equal, choose to get that connection through LEDs.
 
-There are a number of professions who are protected by that fact.
+There are a number of professions that are protected by that fact.
 
 Consider waiters. 
 
@@ -57,7 +57,7 @@ Because the job of a waiter was not just to take an order and bring out food; th
 Teachers, personal trainers, and tour guides would not be pervasive careers were it not for the fact that we need human connection.
 
 Humans can motivate us, guilt us, and comfort us in a way that a machine never can. 
-You cannot automate the soul, you can only mold hollow golems.
+You cannot automate the soul; you can only mold hollow golems.
 
 `;
 

@@ -26,7 +26,7 @@ Over time, our population of cars will get better and better until they are able
 
 ### Our Driving Environment
 
-I’ve taken the time to pre build the driving simulator with the help of P5.js, a Javascript graphics library, and a lot of cartesian geometry(Shoutout Desmos).
+I’ve taken the time to prebuild the driving simulator with the help of P5.js, a Javascript graphics library, and a lot of cartesian geometry(Shoutout Desmos).
 
 If you want the blank driving simulator to follow along with, it is all contained within two files, an [index.html](https://gist.githubusercontent.com/LiorB-D/ec291e7bb51d39b48e9d6982fe68ded4/raw/b227cb9ead764d7f4891634cc665cd5a50ad8fd3/index.html) and a [car.js](https://gist.githubusercontent.com/LiorB-D/19a1252713441c4ef57679237d6d0666/raw/7971c06c7b0133d90996c71d765e7320c0ef6aa4/car.js):
 
@@ -170,12 +170,12 @@ The next step is to breed a new generation. We’ll be using what is known as Fi
 
 This algorithm works by considering the fitness scores of each car in the parent generation, and randomly picking traits from all the parents such that the best performing parents have the highest probability of passing on their traits.
 
-To compute this, we are going to take the sum of each car's fitness score, and use a Cumulative Distribution function to pick a car. If you want a more detailed explanation of the math here, reach out and I would happy to explain more thoroughly.
+To compute this, we are going to take the sum of each car's fitness score, and use a Cumulative Distribution function to pick a car. If you want a more detailed explanation of the math here, reach out and I would be happy to explain more thoroughly.
 
 \`\`\`jsx
 function selectRandParent(tFit) {
       let randVal = tFit * random() // Random value between (0, tFit)
-      let count = 0 // Cumulitive Fitness
+      let count = 0 // Cumulative Fitness
       
       for(let i = 0; i < cars.length; i++) {
           count += cars[i].fitness
@@ -228,7 +228,7 @@ copyWeights() {
 
 Now let’s write our function to create the new generation.
 
-For each new child, we will iterate through weight in its model and randomly assign it a weight from a parent(using our selection algorithm).
+For each new child, we will iterate through each weight in its model and randomly assign it a weight from a parent (using our selection algorithm).
 
 \`\`\`jsx
 function startNewGen() {
@@ -290,13 +290,13 @@ Let’s create an integer in our index.html called frameCount, to keep track of 
 
 \`\`\`jsx
 frameCount += 1;
-      // If 200 frames has passed plus a scaled of the highestScore, then start next generation
+      // If 200 frames have passed plus a scaled value of the highestScore, then start next generation
       if (frameCount > 200 + topFitnessScore * 3) {
         startNewGen();
         frameCount = 0;
       } else if (frameCount > 80) { // Check for inactivity after 80 frames
         let stillActive = false;
-        // Make sure atleast one car has made progress without dying
+        // Make sure at least one car has made progress without dying
         cars.forEach((car) => {
           if (car.fitness > 3 && car.dead == false) {
             stillActive = true;
@@ -313,7 +313,7 @@ Now if everything is implemented correctly we might start to see some progress w
 
 ![36k27nohxedy1qobm7ka.gif](https://i.imgur.com/aXsfoJF.gif)
 
-But its also incredibly likely you might see something like this:
+But it’s also incredibly likely you might see something like this:
 
 ![cwcqk967tr7glmnxw948.gif](https://i.imgur.com/L3JurEf.gif)
 
@@ -556,13 +556,13 @@ Final version of index.html:
       });
 
       frameCount += 1;
-      // If 200 frames has passed plus a scaled of the highestScore, then start next generation
+      // If 200 frames have passed plus a scaled value of the highestScore, then start next generation
       if (frameCount > 200 + topFitnessScore * 3) {
         startNewGen();
         frameCount = 0;
       } else if (frameCount > 80) { // Check for inactivity after 80 frames
         let stillActive = false;
-        // Make sure atleast one car has made progress without dying
+        // Make sure at least one car has made progress without dying
         cars.forEach((car) => {
           if (car.fitness > 3 && car.dead == false) {
             stillActive = true;
@@ -598,7 +598,7 @@ Final version of index.html:
 
     function selectRandParent(tFit) {
       let randVal = tFit * random(); // Random value between (0, tFit)
-      let count = 0; // Cumulitive Fitness
+      let count = 0; // Cumulative Fitness
 
       for (let i = 0; i < cars.length; i++) {
         count += cars[i].fitness;
@@ -747,7 +747,7 @@ class Car {
     this.eyeX = this.x + (cos(this.angle) * this.carDi) / 3;
     this.eyeY = this.y + (sin(this.angle) * this.carDi) / 3;
 
-    this.v *= 0.98; // Deccelerate from Friction
+    this.v *= 0.98; // Decelerate from Friction
 
     this.fitness = this.updateFitness();
 

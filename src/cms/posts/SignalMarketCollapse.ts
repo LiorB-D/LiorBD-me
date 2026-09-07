@@ -1,9 +1,9 @@
 const SIGNAL_MARKET_COLLAPSE = `
 
-There is a particular type of AI startup that I am particularly bearish of:
+There is a particular type of AI startup that I am particularly bearish on:
 - AI job application bot
 - AI cold calling / emailing bot
-- AI dating app bot *(There is more reason than one to be bearish of these)*
+- AI dating app bot *(There is more reason than one to be bearish on these)*
 
 I will group these products together under the label **Signal Collapsers**, 
 as their value proposition is to help lower transaction costs in markets that rely heavily on signaling.
@@ -14,14 +14,14 @@ as their value proposition is to help lower transaction costs in markets that re
 A **transaction cost** is a cost paid to complete a transaction, 
 independent of the cost paid for the actual good or service.
 
-For example, if you pay $20 for a taxi but spent 5 minutes explaining
+For example, if you paid $20 for a taxi but spent 5 minutes explaining
 to the driver where your destination is, you paid a transaction cost of 5 minutes.
 
 If you spent 20 minutes searching for a taxi, you also paid a 20 minute **search cost**, 
 though for the sake of simplicity we will group search costs with their transaction cost cousins.
 
 Similarly, if you spent $100 on a Bed and Breakfast, 
-but spent 2 hours finding the booking the Bed and Breakfast, you have incurred a transaction cost of 2 hours.
+but spent 2 hours finding and booking the Bed and Breakfast, you have incurred a transaction cost of 2 hours.
 
 I picked these two examples because Uber and AirBnB have 
 created large amounts of value by removing these transaction costs.
@@ -31,14 +31,14 @@ If technology can remove a transaction cost, isn't there a business to be built 
 
 ## Signaling Games
 
-In Game Theory, a signaling game is a scenario where one set of people send (possibly truthful) messages 
+In Game Theory, a signaling game is a scenario where one set of people sends (possibly truthful) messages
 to another set of people that convey information about themselves. 
 The receiver(s) can then infer information about the various senders and respond accordingly.
 
 I'll illustrate with an example. 
 
 Suppose we have three risk-neutral salespeople: Sam, Sylvia, and Siraj. 
-As risk-neutral salespeople, they make decisions in such a way to maximize their expected value.
+As risk-neutral salespeople, they make decisions in such a way as to maximize their expected value.
 
 The three of them all operate via cold phone calls where they sell their various food items.
 
@@ -50,7 +50,7 @@ In this fictional world, every phone call they make costs $5. Their possible rew
 - Failed cold call -> -$5
 - No cold call -> \\$0
 
-More generically, if a salesperson believes that they have a $x%$ chance of closing a sale, 
+More generically, if a salesperson believes that they have an $x%$ chance of closing a sale,
 their expected return on a cold call is:
 
 $$
@@ -70,7 +70,7 @@ When she receives a phone call from Sam, she instantly knows that Sam has a rele
 
 In this game, the phone call (or lack thereof) **signals** to the receiver the relevance of the offer.
 
-The fact that Sam is willing to pay the transaction cost ($5), 
+The fact that Sam is willing to pay the transaction cost ($5)
 **signals** to Rachel that he believes he has a decent chance of making an offer that Rachel wants.
 
 Game theorists call equilibriums like this a **Separating Equilibrium**, 
@@ -94,7 +94,7 @@ Additionally, she values the burrito at \\$14, so when she accepts and buys the 
 - Pay $3 in consideration costs
 - Pay $10 for the burrito
 - Earn $14 of value for the burrito
-- Nets $1 (14 - 10 - 3) worth of value
+- Net $1 (14 - 10 - 3) worth of value
 
 
 ## A world without transaction costs
@@ -104,7 +104,7 @@ Now suppose, a company comes along that has figured out how to make these phone 
 Sam, Sylvia, and Siraj are stoked!
 
 Suddenly their calculus has changed. 
-If they believe Rachel has a x% chance of purchasing then their expected value of a phone call is:
+If they believe Rachel has an x% chance of purchasing then their expected value of a phone call is:
 
 $$
 \\$10 * \\frac{x}{100} - \\$0.50
@@ -130,7 +130,7 @@ When Rachel receives a call, there are three possible outcomes:
 - Siraj is calling, Rachel loses $3 in consideration cost
 
 Given those odds, **it is not worthwhile for Rachel to pick up the phone at all!** 
-By removing the transaction cost, you did not expand the business of Sylvia and Siraj,
+By removing the transaction cost, you did not expand the business of Sylvia and Siraj;
 you diluted the signal that allowed the market to operate in the first place. The signal market has collapsed.
 
 Now not even Sam can sell Rachel the burrito, as Rachel has no way to distinguish the cold calls!

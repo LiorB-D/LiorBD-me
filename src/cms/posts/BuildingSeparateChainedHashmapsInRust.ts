@@ -8,7 +8,7 @@ Let's try to be good software engineers.
 ## What are hashmaps?
 
 Hashmaps (AKA dictionaries or hash tables) have
-an illusively simple interface:
+a deceptively simple interface:
 
 - \`Insert\`: Place a value under a given
   key
@@ -223,7 +223,7 @@ Now suppose we attempt to insert $(k_2, v_2)$, but $h(k_2) = 3$!
 
 The simplest implementation of probing would then insert $(k_2, v_2)$ at the next available index (4).
 
-When we lookup $k_2$ in the hashmap we would:
+When we look up $k_2$ in the hashmap we would:
 - Compute $h(k_2)$ which is $3$
 - Check index $3$ to see if $k_2$ lives there.
 - Since it doesn't, we would then check the next index (4).
@@ -245,13 +245,13 @@ With separate chaining we insert $(k_1,v_1)$ in the bucket at index 3.
 Now suppose we attempt to insert $(k_2, v_2)$, but $h(k_2) = 3$.
 Instead of finding another slot, we just append $(k_2, v_2)$ to our bucket.
 
-When we lookup $k_2$ in the hashmap we would now:
+When we look up $k_2$ in the hashmap we would now:
 - Compute $h(k_2)$ which is $3$
 - Check the bucket at index $3$
 - Iterate through the bucket until we find $k_2$
 
 That means in the worst case scenario, when we always collide, all our entries get put in the same bucket and lookup costs $O(n)$.
-However, if we are using a good hash function collision should be rare.
+However, if we are using a good hash function, collisions should be rare.
 
 
 ## Implementing Separate chaining in Rust

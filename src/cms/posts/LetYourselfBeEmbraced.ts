@@ -5,7 +5,7 @@ And I imagine their destination
 Meadow grass, jagged rock*
 > 
 
-In May of last year Paul Simon released *Seven Psalms,* a 33 minute and 2 second long completely acoustic song. Song — Not album.
+In May of last year Paul Simon released *Seven Psalms,* a completely acoustic song lasting 33 minutes and 2 seconds. Song — Not album.
 
 It is not a Tweet or a Tik Tok — It does not fight tooth and nail for your attention. It assumes it already has it.
 
@@ -13,7 +13,7 @@ It is not a Tweet or a Tik Tok — It does not fight tooth and nail for your att
 
 Music streaming is a blessing and a curse. We’ve been given complete control over what we hear. The second we don’t like a song we can pick a new one by moving our thumb. There is no switching cost. We are in a state of constantly and actively optimizing our own dopamine.
 
-Amazed at our ability to steer, we refuse to relinquish the drivers seat. Surely there is no-one we trust more than ourselves with the wheel?
+Amazed at our ability to steer, we refuse to relinquish the driver’s seat. Surely there is no-one we trust more than ourselves with the wheel?
 
 > *The Lord is my engineer
 The Lord is the earth I ride on
@@ -25,7 +25,7 @@ Traveling by Airplane and Train has always produced a certain tranquility for me
 
 I am moving forward towards my goal, progressing on my journey. And yet I am doing no work. I have complete trust that I am going where I need to go.
 
-The pilot never asked for my trust;  My ticket is proof that I’m willing to give it.
+The pilot never asked for my trust; my ticket is proof that I’m willing to give it.
 
 I’m not checking my mirrors, looking out for gas stations, and adjusting my hands. There is nothing I can do to aid the odyssey; nothing I can do to better utilize my time. I have no recourse but to sit and enjoy the privilege of existence.
 
@@ -43,7 +43,7 @@ What happens when a human being lives in a constant state of decision-making?
 
 Our goal is in front of us and we have been given the tools to pursue it. We abuse every heuristic at our disposal. We become tribal and risk averse. Seek short term gains.
 
-There is no time to evaluate our priors; There is work to be done.
+There is no time to evaluate our priors; there is work to be done.
 
 Relinquishing the steering wheel can bring a clarity of mind that is not otherwise possible. 
 
@@ -51,7 +51,7 @@ When we forfeit the ability to take seemingly-practical steps towards our goal, 
 
 We stop seeking the local optimum and start to ponder the global optimum.
 
-Much like soldiers, when we spend our entire lives in the fog of war we do not know what to do when its gone. We forget how to live without optimizing.
+Much like soldiers, when we spend our entire lives in the fog of war we do not know what to do when it’s gone. We forget how to live without optimizing.
 
 We forget how to embrace the comfort of our own existence.
 
@@ -63,7 +63,7 @@ A simple truth, surviving
 
 The Biblical Book of Job simultaneously belittles your grief and brings you peace.
 
-The book begins immediately with the pious Job losing his family, fortune, and health to chance. For 30 chapters Job struggles against his fate; Attempting to find a way to uphold his faith in the face of loss. 
+The book begins immediately with the pious Job losing his family, fortune, and health to chance. For 30 chapters Job struggles against his fate, attempting to find a way to uphold his faith in the face of loss.
 
 When God finally decides to speak, it is not with an answer. It is with a question.
 
@@ -85,7 +85,7 @@ When they couch to bring forth their offspring,To deliver their young? (*Job 39:
 
 The world we live in is nothing but fate. Who are we to fight against the tides we find ourselves in?
 
-We sprint on a treadmill of optimization for a chance at gaining some advantage. How minisicule is this advantage in the face of Leviathans and Behemoths?
+We sprint on a treadmill of optimization for a chance at gaining some advantage. How minuscule is this advantage in the face of Leviathans and Behemoths?
 
 <aside>
 📖 Can you pull in Leviathan with a fishhook

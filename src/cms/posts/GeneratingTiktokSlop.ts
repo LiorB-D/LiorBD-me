@@ -13,16 +13,16 @@ I built this for 2 reasons:
 You can view the full repo [here](https://github.com/LiorB-D/TiktokSlopGenerator) 
 ### The Scripts
 
-The flow is composed of 7 core scripts. I highly recommend running each step seperately and verifying the output. The steps are:
+The flow is composed of 7 core scripts. I highly recommend running each step separately and verifying the output. The steps are:
 
 1. Generate Script
 2. Generate Images
 3. Generate Audio
-4. Apply Ken Burns Affect to Images
+4. Apply Ken Burns Effect to Images
 5. Concatenate Clips
 6. Add audio to video
 
-To run the CLI, run \`slop.sh\`. The first time you run it, it will check for and if neccesary install \`JQ\`, a Bash JSON parser.
+To run the CLI, run \`slop.sh\`. The first time you run it, it will check for and, if necessary, install \`JQ\`, a Bash JSON parser.
 
 The output of each step will be in the \`./assets\` folder.
 
@@ -63,7 +63,7 @@ Images are saved to the \`assets/images\` folder, named \`IMG_x.jpg\` where x is
 
 **3. Generate Audio**
 
-This step supports both ElevenLabs and OpenAI's TTS models. In my opinion, Eleven Labs are much higher quality, but you may prefer to keep all your AI bills to one vendor.
+This step supports both ElevenLabs and OpenAI's TTS models. In my opinion, ElevenLabs’ models are much higher quality, but you may prefer to keep all your AI bills to one vendor.
 
 The text fields in the transcript are concatenated to form the transcript.
 
@@ -71,11 +71,11 @@ Audio is saved to \`assets/audio.mp3\`
 
 **4. Apply Ken Burns**
 
-This step generated a clip from each image using the Ken Burns effect (Zooming into a certain corner). Warning: The ffmpeg commands are pretty messy.
+This step generates a clip from each image using the Ken Burns effect (Zooming into a certain corner). Warning: The ffmpeg commands are pretty messy.
 
 Clips are saved to \`assets/clips_nocap/VID_x.mp4\`
 
-This step then uses ffmpeg's \`drawfilter\` to add captions to each clips based on the transcript. The font for the captions is read from \`assets/font.ttf\`. You may want to play with the font color and border.
+This step then uses ffmpeg's \`drawfilter\` to add captions to each clip based on the transcript. The font for the captions is read from \`assets/font.ttf\`. You may want to play with the font color and border.
 
 The final result is saved to \`assets/clips/VID_x.mp4\`
 

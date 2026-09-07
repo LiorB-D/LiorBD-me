@@ -6,9 +6,9 @@ const HAMMERS_SEARCHING_NAILS = `
 
 *As Emmy stepped into Carl’s car, she looked with horror as he began to set up his GPS.*
 
-*“What are you doing?”, she yelled, “The whole point was to venture into the unknown”*
+*“What are you doing?” she yelled. “The whole point was to venture into the unknown.”*
 
-*Confused he said, ”How else are we going to get there?”*
+*Confused, he said, “How else are we going to get there?”*
 
 -------
 
@@ -16,7 +16,7 @@ In a world where research is dependent on case-by-case funding, our intellectual
 
 Do you want to study number theory? You better find some applications for cryptography. Are you working on a new machine-learning theory? You better hope that deep learning can’t do it better.
 
-Over the past months, I’ve been exploring Topological Data Analysis (TDA), which looks to use tools from Algebraic Topology to work with data. More explicitly, it is concerning the shape that data forms in space.
+Over the past months, I’ve been exploring Topological Data Analysis (TDA), which looks to use tools from Algebraic Topology to work with data. More explicitly, it concerns the shape that data forms in space.
 
 Despite showing some successful results, most of the techniques in the field are either computationally or analytically inferior to deep-learning techniques. This has earned TDA the title of a *hammer in search of a nail,* in other words, a tool that has no use today, especially in competition with other tools. This type of research is also sometimes referred to as *blue-sky research.*
 
@@ -24,7 +24,7 @@ Does that mean they have no value? Many would say yes.
 
 But those who deride a field of research as a *hammer in search of nails* forget that highly efficient and effective tools don’t start as highly efficient and effective. They often don’t even start as tools.
 
-In the eyes of many algebra students, the prototypical *hammer in search of nails* is the imaginary number. In fact, Rene Descartes, the 17th-century French philosopher, and mathematician, allegedly coined the term imaginary because he saw these numbers as being fictitious and useless.
+In the eyes of many algebra students, the prototypical *hammer in search of nails* is the imaginary number. In fact, Rene Descartes, the 17th-century French philosopher and mathematician, allegedly coined the term imaginary because he saw these numbers as being fictitious and useless.
 
 Surely if we never encounter $$\\sqrt{-1}$$ on a daily basis, it could not possibly have a use other than a theoretical exercise. For hundreds of years, work was done in this field despite it having little or no practical application. 
 
@@ -43,7 +43,7 @@ Academic fields need time and resources to develop. The best policy is to value 
 > Weak-link problems are problems where the overall quality depends on how good the *worst* stuff is. You fix weak-link problems by making the weakest links stronger, or by eliminating them entirely…Some problems are strong-link problems: overall quality depends on how good the *best* stuff is, and the bad stuff barely matters
 > 
 
-In his piece, he argues that science (And I would extend that to research in general) is a strong-link problem. We can extend this idea to thinking about bounds to the consequences of h*ammers in search of nails*.
+In his piece, he argues that science (And I would extend that to research in general) is a strong-link problem. We can extend this idea to thinking about bounds to the consequences of *hammers in search of nails*.
 
 The negative consequences of *hammers without nails* are bounded. If the produced research is never used again, we’ve wasted a finite amount of time and resources of the researcher. 
 

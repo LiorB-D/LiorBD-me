@@ -44,9 +44,9 @@ You can find a full list of a-frame tags, as well as the full A-Frame docs here:
 
 https://aframe.io/docs/1.2.0/introduction/
 
-You’ll notice that while you can drag the screen to move the camera, you can’t yet actually use a VR device. This is because the html file has to be served, it can’t be run off a static file.
+You’ll notice that while you can drag the screen to move the camera, you can’t yet actually use a VR device. This is because the html file has to be served; it can’t be run off a static file.
 
-This can be done fairly easily with nodeJS. Simply setup an npm project with the following javascript file:
+This can be done fairly easily with nodeJS. Simply set up an npm project with the following javascript file:
 
 \`\`\html
 const http = require('http')
@@ -140,7 +140,7 @@ And there you have it! We successfully created an animated VR scene with less th
 
 ## **Testing it with the WebXR API**
 
-Now if you’re anything like me and haven’t shelled out for a VR headset yet, don’t worrry. You can test out your VR website in either Chrome or Firefox using the WebXR API. Just install the following extension:
+Now if you’re anything like me and haven’t shelled out for a VR headset yet, don’t worry. You can test out your VR website in either Chrome or Firefox using the WebXR API. Just install the following extension:
 
 For Firefox: [https://addons.mozilla.org/en-US/firefox/addon/webxr-api-emulator/](https://addons.mozilla.org/en-US/firefox/addon/webxr-api-emulator/)
 

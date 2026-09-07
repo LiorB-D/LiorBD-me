@@ -2,7 +2,7 @@ const AdviceForJobSeekers = `
 
 There is a great contradiction in the 2026 job market: Employers are struggling to fill roles and job seekers are struggling to land those roles.
 
-The macro trends here are interesting,but I'd like to focus on what individuals have agency over. 
+The macro trends here are interesting, but I'd like to focus on what individuals have agency over.
 If you have been struggling to find a job, macroeconomic theories will not help you. In fact, trying to blame the economy, even if justified, is counterproductive.
 
 I have spent a healthy amount of time sourcing and interviewing folks for a variety of technical roles. 
@@ -33,7 +33,7 @@ Here are some tangible ways to achieve that:
 
 I interview too many candidates who have memorized what they think are perfect answers to interview questions, but they completely fail the most basic question of all: "How was your weekend?"
 
-Fifty percent of any job interview is the hiring manager figuring out whether their team will want to spend 40 hours a week with you. You are courting friends, be open and try to form a connection to the interviewer. Do not rehearse answers or read from notes. How would you feel if you met someone at a party and they started answering all your questions from an index card? You would leave that conversation ASAP.
+Fifty percent of any job interview is the hiring manager figuring out whether their team will want to spend 40 hours a week with you. You are courting friends; be open and try to form a connection to the interviewer. Do not rehearse answers or read from notes. How would you feel if you met someone at a party and they started answering all your questions from an index card? You would leave that conversation ASAP.
 
 In a similar vein, you should assume that your interviewer can smell bullshit a mile away. The best way to not come off as a bullshitter is to not bullshit in the first place.
 
@@ -42,7 +42,7 @@ The most common form of job interview bullshitting comes in response to the ques
 Most careers do not involve saving the world. That's perfectly fine! You don't need to pretend that you have an intense passion for building B2B SaaS!
 
 The bullshit answer which I've heard a thousand times is: "I'm incredibly passionate about < Niche B2B SaaS function >." 
-You are not excited. Your job interviewer works in this industry, they know it is not saving the world.
+You are not excited. Your job interviewer works in this industry; they know it is not saving the world.
 
 Acceptable answers that can be genuine are:
 

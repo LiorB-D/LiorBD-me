@@ -1,5 +1,5 @@
 const THOUGHTS_ON_LLMS = `
-Last week I saw another ridiculous sounding tweet about how *AI is here and its changing everything:*
+Last week I saw another ridiculous sounding tweet about how *AI is here and it’s changing everything:*
 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">GPT4 just passed all MIT Math, EE &amp; CS (EECS) courses test with near 100% accuracy 🤯<br><br>-4,550 questions from the 30 MIT Math &amp; CS courses required for a degree<br><br>Test set, excluding image Questios, w/ prompt engineering:<br><br>-GPT-3.5 solves 33%<br>-GPT-4 solves nearly 100% <a href="https://t.co/8CyEdwoDyo">pic.twitter.com/8CyEdwoDyo</a></p>&mdash; AI Daily (@AIDailyNewsNow) <a href="https://twitter.com/AIDailyNewsNow/status/1669819712321081346?ref_src=twsrc%5Etfw">June 16, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -7,7 +7,7 @@ As someone who has tested ChatGPT on some past math problem sets, this instantly
 
 The headline alone doesn’t even make any sense. The model passed every MIT Math, EE, and CS course? What does that even mean to pass? 
 
-Surely the CS courses include projects — Did they GPT generate entire software projects?
+Surely the CS courses include projects — Did GPT generate entire software projects?
 
 Most proofs done for math courses have to be done within the context of theorems proven already in class — Was ChatGPT prompted to only use theorems already proven?
 
@@ -15,7 +15,7 @@ Usually I just block the AI/Blockchain/Whatever-is-currently-hyped influencer, b
 
 Lo and behold a quick skim of the paper makes it clear that what actually happened was GPT was asked a specific (and not released) set of questions with significant prompting. To “grade” this test, they used GPT itself.
 
-There don’t show the prompts, they don’t show the questions, they don’t show the answers.
+They don’t show the prompts, they don’t show the questions, they don’t show the answers.
 
 [This](https://www.notion.so/No-GPT4-can-t-ace-MIT-b27e6796ab5a48368127a98216c76864?pvs=21) is a good explainer about the issues with this paper.
 
@@ -29,7 +29,7 @@ Innovation is incredibly exciting. Breakthroughs expand the frontiers of what an
 
 When engineers hear about breakthroughs a spark is lit on what new things could be built.
 
-But then this breakthrough is abused by snake-oil salesman.
+But then this breakthrough is abused by snake-oil salesmen.
 
 Opportunists see the excitement of engineers and they know it can be leveraged by inflating the breakthrough to a level that the public could understand.
 
@@ -45,17 +45,17 @@ When the Doctor reads about the discovery of the equation that explains the univ
 
 I’m most excited by Embedding. The ability to place a metric on bodies of text can help us better funnel users into successful product experiences.
 
-User preferences are continuously distributed, but developers can only build a discrete amount of user journeys.
+User preferences are continuously distributed, but developers can only build a discrete number of user journeys.
 
 So then the user has to figure out which user journey to go down. This decision is very error prone and has a transaction cost.
 
-GPT allows us to programmatically take diverse user input and better place them in the correct journey. GPT also allows us to create me personalized user journeys.
+GPT allows us to programmatically take diverse user input and better place them in the correct journey. GPT also allows us to create more personalized user journeys.
 
 To use Siri you need to draw your goal (In whatever words come to mind) from a continuous set, and funnel it into one of the discrete phrases that Siri can understand.
 
-To find the information they want. a googler has to figure out exactly what they should search in order to be shown the correct user pathway.
+To find the information they want, a googler has to figure out exactly what they should search in order to be shown the correct user pathway.
 
-And then they search and odds are they clicked on the wrong user journey.
+And then they search and odds are they click on the wrong user journey.
 
 ### SEO is a virus infecting LLMs
 
@@ -69,7 +69,7 @@ If you are writing an article called *“What’s the new Mortal Kombat Release 
 
 But to help your chances of being the first result, you need the text in the user’s query to closely match the content of the page.
 
-A lightbulb went off a couple weeks when ChatGPT set off the same internal rant.
+A lightbulb went off a couple weeks ago when ChatGPT set off the same internal rant.
 
 Whenever you ask ChatGPT a question it verbosely restates the question.
 

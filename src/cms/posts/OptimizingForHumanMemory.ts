@@ -14,7 +14,7 @@ The brain can reason best when all the relevant context is in short term memory,
 but short term memory can only hold so much. So in other words: minimize the required context
 to understand a line of code.
 
-There are a couple key ways to do so, I want to talk about 3.
+There are a couple key ways to do so; I want to talk about 3.
 
 <br/>
 
@@ -77,7 +77,7 @@ def get_current_utc_timestamp():
     return ....
 \`\`\`
 
-The function will returns different timestamps each time you call it. 
+The function will return different timestamps each time you call it.
 In general, if a function does not return **identical values for identical arguments**, then there is some other outside factor (other than arguments) that determines the result.
 In this case, that's the local time, but it may be a 3rd party server, a global variable, or a local file.
 
@@ -102,10 +102,10 @@ Suppose you want to use a function \`foo\`. The purity of the function determine
     - All other parts of the codebase which are affected by those side effects.
 
 Any use of an impure function requires more extensive development time, more thorough review, and more aggressive QA.
-If you're lucky you'll ship slower, if you're human you'll ship bugs.
+If you're lucky you'll ship slower; if you're human you'll ship bugs.
 
 Since impure functions are inevitable, I recommend isolating each impure operation to its own minimal function.
-You may be realizing that the caller of an impure function, is usually itself impure.
+You may be realizing that the caller of an impure function is usually itself impure.
 
 However, the opposite is not true. Impure functions can and should call pure functions.
 
@@ -149,7 +149,7 @@ def send_marketing_email(user_id):
 By isolating the pure function \`build_email_content\`, we can make any edits to the function without considering the side effects posed by the other two functions.
 More importantly, other developers can use the \`build_email_content\` without considering those side effects.
 
-Isolating our impure functions \`get_user\` and \`send_email\`, means edits made to one function need not consider the side effects of the other, to the extent that the side effects don't overlap.
+Isolating our impure functions \`get_user\` and \`send_email\` means edits made to one function need not consider the side effects of the other, to the extent that the side effects don't overlap.
 
 <br/>
 
@@ -158,7 +158,7 @@ Isolating our impure functions \`get_user\` and \`send_email\`, means edits made
     
 This is obviously easier said than done.
 
-The goal is to make it easier for future developers to understand your code; Ambiguous or incorrect names make that much harder.
+The goal is to make it easier for future developers to understand your code; ambiguous or incorrect names make that much harder.
 
 One could write a book on how to name things, but I'll leave it at this:
 
@@ -185,7 +185,7 @@ req -> requirement
 
 Even common abbreviations increase surface area for misinterpretation. 
 
-The less common abbreviations are likely to require effort to interpret and require an extra processing step each time a developer reads it.
+The less common abbreviations are likely to require effort to interpret and require an extra processing step each time a developer reads them.
 
 `;
 export default OPTIMIZE_CODE_FOR_HUMAN_MEMORY;

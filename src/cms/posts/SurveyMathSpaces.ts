@@ -28,11 +28,11 @@ Let $X$ be a nonempty set and let $d: X \\times X \\to \\R$ be a function taking
 
 A metric space is the set $X$ equipped with our metric $d$. The metric is effectively a function telling us the “distance” between two points.
 
-The metric space you are likely most comfortable with is $\\R^2$ equipped with the euclidean metric. If we have two points in the cartesian place $(x_1,y_1), (x_2,y_2) \\in \\R^2$, our euclidean metric is $d((x_1,y_1), (x_2,y_2)) = \\sqrt{(x_1-x_2)^2 + (y_1-y_2)^2}$. Another common metric is the “taxicab” or “manhattan” metric, which just takes the sum of each of the coordinate distances: $d'((x_1,y_1), (x_2,y_2)) = (x_1-x_2) + (y_1-y_2)$.
+The metric space you are likely most comfortable with is $\\R^2$ equipped with the euclidean metric. If we have two points in the cartesian plane $(x_1,y_1), (x_2,y_2) \\in \\R^2$, our euclidean metric is $d((x_1,y_1), (x_2,y_2)) = \\sqrt{(x_1-x_2)^2 + (y_1-y_2)^2}$. Another common metric is the “taxicab” or “manhattan” metric, which just takes the sum of each of the coordinate distances: $d'((x_1,y_1), (x_2,y_2)) = (x_1-x_2) + (y_1-y_2)$.
 
 You can check that both of these metrics satisfy all our conditions.
 
-An easy nonexample is to again take the real number line $\\R$, and let $d(x,y) = |2x-y|$. Note that our function d fails the symmetry requirement since $d(5,2) = |2*5-2| = 8$  but $d(2,5) = |2*2 - 5| = |-1| = 1$. Thus $d$ is not a metrics and we don’t have a metric space.
+An easy nonexample is to again take the real number line $\\R$, and let $d(x,y) = |2x-y|$. Note that our function d fails the symmetry requirement since $d(5,2) = |2*5-2| = 8$  but $d(2,5) = |2*2 - 5| = |-1| = 1$. Thus $d$ is not a metric and we don’t have a metric space.
 
 ### Normed Space(Or a normed vector space)
 
@@ -46,7 +46,7 @@ Consider a vector space $V$ over a field $F$. $V$ is a normed linear space if th
 
 4) Uniqueness: $||x|| = 0$ if and only if $x = 0_v$   
 
-Note that given a norm $||*||$, one can always define a valid metric $d(x,y) = ||x-y||$. Thus every normed space is a metric space as well.(Note the opposite is not always true. Not every metric space is a normed space)
+Note that given a norm $||*||$, one can always define a valid metric $d(x,y) = ||x-y||$. Thus every normed space is a metric space as well. (Note the opposite is not always true. Not every metric space is a normed space)
 
 For examples, consider the ones used for metric spaces where the norm is defined $||x|| = d(x,0)$
 
@@ -56,7 +56,7 @@ Thus while a metric tells us “distance", a norm tells us “size”.
 
 Note to make things simple, we will only consider the field $F$ to be the real or complex numbers.
 
-An inner product space is a vector space $V$ over a field $F$ equipped with an operation(called an inner product) $\\langle \\cdot,\\cdot\\rangle: V \\times V \\to F$ satisfying three conditions for all $x,y,z \\in V$ and 
+An inner product space is a vector space $V$ over a field $F$ equipped with an operation(called an inner product) $\\langle \\cdot,\\cdot\\rangle: V \\times V \\to F$ satisfying three conditions for all $x,y,z \\in V$:
 
 1) Conjugate Symmetry: $\\langle x,y \\rangle = \\overline{\\langle y,x \\rangle}$ 
 
@@ -96,7 +96,7 @@ Thus we have that $L = 0$, but 0 is not in $M$. Thus M is not a complete metric 
 
 ### Banach Space
 
-A Banach Space $(V, ||\\cdot||)$ is a vector space $V$, paired with a norm, $||\\cdot||$ such that with respect the metric induced by the norm $d(x,y) = ||x-y||$, $V$ is a complete metric space.
+A Banach Space $(V, ||\\cdot||)$ is a vector space $V$, paired with a norm, $||\\cdot||$ such that with respect to the metric induced by the norm $d(x,y) = ||x-y||$, $V$ is a complete metric space.
 
 Note what makes the Banach space different from any regular complete metric space is the fact that it is a vector space and that the metric is specifically defined in terms of a norm(This is not true of every metric).
 
@@ -128,15 +128,15 @@ Which is our standard euclidean distance function.
 
  
 
-A Topological Space is a set $X$ combined with a set $\\tau$ called a a topology, where the elements of this topology $\\tau$ are all different subsets of $X$ following certain conditions.
+A Topological Space is a set $X$ combined with a set $\\tau$ called a topology, where the elements of this topology $\\tau$ are all different subsets of $X$ following certain conditions.
 
 There are a number of different equivalent rules, but the simplest is through the notion of ‘open sets’. $\\tau$ is a topology if the following three conditions are met.
 
 1) The empty set and $X$ are both elements of $\\tau$
 
-2) The union of an arbitrary number of elements of $\\tau$, must also be in $\\tau$
+2) The union of an arbitrary number of elements of $\\tau$ must also be in $\\tau$
 
-3) The intersection of any finite number of elements of $\\tau$, must also be in $\\tau$
+3) The intersection of any finite number of elements of $\\tau$ must also be in $\\tau$
 
 With the elements of $\\tau$ being called open sets.
 
@@ -146,15 +146,15 @@ The real numbers $\\R$ become a topological space with the topology $\\tau = \\{
 
 While it may be unclear how the notion of a topology is helpful, this collection of different subsets of $X$ allows us to talk about some notion of “closeness”, without requiring a form of distance. This notion of closeness is actually all we need to talk about a notion of limits and convergence. 
 
-Topological spaces are thus much more versatile classification compared to metric and vector spaces.
+Topological spaces are thus a much more versatile classification compared to metric and vector spaces.
 
 ### Hausdorff Space
 
-Finally, a Hausdorff Space is a set $X$ equipped with a topology $\\tau$ where for any points $x,y \\in X$, there are subsets $\\tau_x, \\tau_y \\in \\tau$, such that $x \\in \\tau_x, y \\in \\tau_y,$ and $\\tau_x \\cap \\tau_y = \\empty$. In other words for any points in the set, there are disjoints subsets in $\\tau$containing $x$ and $y$ respectively. 
+Finally, a Hausdorff Space is a set $X$ equipped with a topology $\\tau$ where for any points $x,y \\in X$, there are subsets $\\tau_x, \\tau_y \\in \\tau$, such that $x \\in \\tau_x, y \\in \\tau_y,$ and $\\tau_x \\cap \\tau_y = \\empty$. In other words for any points in the set, there are disjoint subsets in $\\tau$ containing $x$ and $y$ respectively.
 
 While in a regular topological space we have a notion of “closeness”, in Hausdorff spaces we can compare how close you are to two different points. 
 
-While limits can exist in all topological spaces, such limits are only guaranteed to to be unique in Hausdorff Spaces.
+While limits can exist in all topological spaces, such limits are only guaranteed to be unique in Hausdorff Spaces.
 
 `;
 
