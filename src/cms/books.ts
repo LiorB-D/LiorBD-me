@@ -378,6 +378,20 @@ const books: Record<string, Book> = {
     accentColor: "#D4AF37",
     dateRead: new Date("2026-08-19"),
   },
+  "the-rust-programming-language": {
+    title: "The Rust Programming Language",
+    author: "Steve Klabnik and Carol Nichols",
+    color: "#CE422B",
+    accentColor: "#FFFFFF",
+    dateRead: new Date("2026-10-20"),
+  },
+  "john-adams": {
+    title: "John Adams",
+    author: "David McCullough",
+    color: "#5C3317",
+    accentColor: "#E8D5A3",
+    dateRead: new Date("2026-10-24"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {

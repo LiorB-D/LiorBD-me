@@ -25,14 +25,14 @@ export default function Page() {
     img_url: string;
   }> = [
     {
-      title: "The Rust Programming Language",
-      author: "Steve Klabnik and Carol Nichols",
-      img_url: "https://m.media-amazon.com/images/I/51n+IQqjlNL._SL1500_.jpg",
+      title: "Maintenance: Of Everything, Part One",
+      author: "Stewart Brand",
+      img_url: "https://images.booksense.com/images/490/953/9781953953490.jpg",
     },
     {
-      title: "John Adams",
-      author: "David McCullough",
-      img_url: "https://m.media-amazon.com/images/I/415LMbVIyGL._SL1500_.jpg",
+      title: "Blood Memory",
+      author: "Dayton Duncan and Ken Burns",
+      img_url: "https://images.booksense.com/images/343/537/9780593537343.jpg",
     },
   ];
 
