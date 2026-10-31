@@ -27,12 +27,12 @@ export default function Page() {
     {
       title: "Maintenance: Of Everything, Part One",
       author: "Stewart Brand",
-      img_url: "https://images.booksense.com/images/490/953/9781953953490.jpg",
+      img_url: "https://m.media-amazon.com/images/I/91t6OROY8qL._SL1500_.jpg",
     },
     {
       title: "Blood Memory",
       author: "Dayton Duncan and Ken Burns",
-      img_url: "https://images.booksense.com/images/343/537/9780593537343.jpg",
+      img_url: "https://m.media-amazon.com/images/I/81gFj7DS2xL._SL1500_.jpg",
     },
   ];
 
