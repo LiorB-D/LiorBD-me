@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Asul } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import BlueJay from "./components/BlueJay";
 
 const asul = Asul({
   subsets: ["latin"],
@@ -25,7 +26,8 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${asul.variable}`}>
       <body className={`font-asul antialiased bg-yellow-50`}>
-        <div className="flex items-start justify-center pt-[150px]">
+        <BlueJay />
+        <div className="relative z-10 flex items-start justify-center pt-[150px]">
           <Navbar />
           <div className="px-10 max-w-[95%] sm:px-20 w-[768px] pb-[400px]">
             {children}
