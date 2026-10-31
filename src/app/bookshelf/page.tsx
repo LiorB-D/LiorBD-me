@@ -1,5 +1,6 @@
 import { Book, getAllBooks } from "@/cms/books";
 import Image from "next/image";
+import BookSlot from "../components/BookSlot";
 
 export default function Page() {
   const allBooks = getAllBooks().sort((a, b) =>
@@ -88,7 +89,8 @@ export default function Page() {
 
 function BookComponent({ book }: { book: Book }) {
   return (
-    <div className="book flex flex-col">
+    <BookSlot title={book.title}>
+    <div className="book">
       <div
         className="booktop rounded-r-sm"
         style={{
@@ -96,6 +98,7 @@ function BookComponent({ book }: { book: Book }) {
           borderTopColor: "rgba(0, 0, 0, 0.1)",
         }}
       ></div>
+      <div className="bookside" style={{ backgroundColor: book.color }} aria-hidden="true" />
 
       <div
         className="bookspine pb-6 pt-8 flex flex-col justify-between"
@@ -120,5 +123,6 @@ function BookComponent({ book }: { book: Book }) {
         ></div>
       </div>
     </div>
+    </BookSlot>
   );
 }
