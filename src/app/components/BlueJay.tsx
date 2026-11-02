@@ -91,6 +91,8 @@ export default function BlueJay() {
           rightWing: model.getObjectByName("right-wing")!,
           velocity: new THREE.Vector2(),
           acceleration: new THREE.Vector2(),
+          wanderDirection: new THREE.Vector2(),
+          wanderTime: Math.random() * 2,
           facingLeft: false,
           flapOffset: Math.random() * Math.PI * 2,
           flapSpeed: 10 + Math.random() * 4,
@@ -121,6 +123,7 @@ export default function BlueJay() {
           0,
         );
         entry.velocity.set(dx * speed, dy * speed);
+        entry.wanderDirection.set(dx, dy);
         entry.facingLeft = dx < 0;
         entry.heading.rotation.z = angle;
         const scale = (36 / 2.53) * unit;
@@ -227,6 +230,16 @@ export default function BlueJay() {
             steer.copy(desired).setLength(maxSpeed).sub(entry.velocity).clampLength(0, maxForce);
             entry.acceleration.addScaledVector(steer, weight);
           };
+          // Hold a random preference long enough to make a smooth arc instead
+          // of adding frame-by-frame jitter. Each bird changes its mind independently.
+          entry.wanderTime -= delta;
+          if (entry.wanderTime <= 0) {
+            const heading = Math.atan2(entry.velocity.y, entry.velocity.x);
+            const turn = (0.4 + Math.random() * 1.1) * (Math.random() < 0.5 ? -1 : 1);
+            entry.wanderDirection.set(Math.cos(heading + turn), Math.sin(heading + turn));
+            entry.wanderTime = 2 + Math.random() * 3;
+          }
+          applySteering(entry.wanderDirection, neighbors > 0 ? 0.5 : 0.85);
           applySteering(separation, 1.8);
           if (neighbors > 0) {
             applySteering(alignment.divideScalar(neighbors), 1);

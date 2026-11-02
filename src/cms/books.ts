@@ -392,6 +392,13 @@ const books: Record<string, Book> = {
     accentColor: "#E8D5A3",
     dateRead: new Date("2026-10-24"),
   },
+  "maintenance-of-everything-part-one": {
+    title: "Maintenance: Of Everything, Part One",
+    author: "Stewart Brand",
+    color: "#E6C84F",
+    accentColor: "#000000",
+    dateRead: new Date("2026-11-02"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {

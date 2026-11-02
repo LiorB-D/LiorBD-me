@@ -26,11 +26,6 @@ export default function Page() {
     img_url: string;
   }> = [
     {
-      title: "Maintenance: Of Everything, Part One",
-      author: "Stewart Brand",
-      img_url: "https://m.media-amazon.com/images/I/91t6OROY8qL._SL1500_.jpg",
-    },
-    {
       title: "Blood Memory",
       author: "Dayton Duncan and Ken Burns",
       img_url: "https://m.media-amazon.com/images/I/81gFj7DS2xL._SL1500_.jpg",
