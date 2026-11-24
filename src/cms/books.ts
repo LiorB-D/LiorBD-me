@@ -399,6 +399,13 @@ const books: Record<string, Book> = {
     accentColor: "#000000",
     dateRead: new Date("2026-11-02"),
   },
+  "blood-memory": {
+    title: "Blood Memory",
+    author: "Dayton Duncan and Ken Burns",
+    color: "#5C3317",
+    accentColor: "#E8D5A3",
+    dateRead: new Date("2026-11-23"),
+  },
 };
 
 export function getAllBooks(): { slug: string; book: Book }[] {
