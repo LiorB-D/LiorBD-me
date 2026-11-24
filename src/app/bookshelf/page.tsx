@@ -26,11 +26,10 @@ export default function Page() {
     img_url: string;
   }> = [
     {
-      title:
-        "Saladin: The Sultan Who Vanquished the Crusaders and Built an Islamic Empire",
-      author: "John Man",
+      title: "A Philosophy of Software Design",
+      author: "John Ousterhout",
       img_url:
-        "https://m.media-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/I/81bWGu2eD9L._SL1500_.jpg",
+        "https://m.media-amazon.com/images/P/173210221X.01.L.jpg",
     },
   ];
 

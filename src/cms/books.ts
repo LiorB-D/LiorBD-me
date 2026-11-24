@@ -7,6 +7,14 @@ export type Book = {
 };
 
 const books: Record<string, Book> = {
+  saladin: {
+    title:
+      "Saladin: The Sultan Who Vanquished the Crusaders and Built an Islamic Empire",
+    author: "John Man",
+    color: "#D4AF37",
+    accentColor: "#000000",
+    dateRead: new Date("2026-11-24"),
+  },
   "cold-start-problem": {
     title: "The Cold Start Problem",
     author: "Andrew Chen",
